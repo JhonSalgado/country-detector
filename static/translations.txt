@@ -1,9 +1,10 @@
 af	Afghanistan	Afeganistão	pt	Portuguese
 af	Afghanistan	Afghanistan	cy	Welsh
-af	Afghanistan	An Afganastáin	ga	Irish
+af	Afghanistan	Afganastáin	ga	Irish
 af	Afghanistan	Afganastan	gd	Scots Gaelic
 af	Afghanistan	Afgania	la	Latin
-af	Afghanistan	Afganio or Afganujo	eo	Esperanto
+af	Afghanistan	Afganio	eo	Esperanto
+af	Afghanistan	Afganujo	eo	Esperanto
 af	Afghanistan	Afganistan	bs	Bosnian
 af	Afghanistan	Afganistanen	eu	Basque
 af	Afghanistan	Afghanistán	gl	Galician
@@ -1436,7 +1437,8 @@ bm	Bermuda	버뮤다	ko	Korean
 bm	Bermuda	Բերմուդա	hy	Armenian
 bm	Bermuda	Bermuda	et	Estonian
 bm	Bermuda	ברמודה	he	Hebrew
-bm	Bermuda	Bermuda or Bermudai	lt	Lithuanian
+bm	Bermuda	Bermuda	lt	Lithuanian
+bm	Bermuda	Bermudai	lt	Lithuanian
 bm	Bermuda	Bermudas	nl	Dutch
 bm	Bermuda	Bermude	it	Italian
 bm	Bermuda	Bermudes	ca	Catalan
@@ -1761,61 +1763,61 @@ br	Brazil	Brasil	qu	Quechua
 br	Brazil	Brazil	ms	Malay
 br	Brazil	Brasil	es	Spanish
 br	Brazil	Brasil	cy	Welsh
-	British Honduras	Британски Хондурас	sr	Serbian
-	British Honduras	Британский Гондурас	ru	Russian
-	British Honduras	Britisch-Honduras	de	German
-	British Honduras	Britisk Honduras	no	Norwegian
-	British Honduras	Brits-Honduras	nl	Dutch
-	British Honduras	Britský Honduras	cs	Czech
-	British Honduras	Brittiläinen Honduras	fi	Finnish
-	British Honduras	Britų Hondūras	lt	Lithuanian
-	British Honduras	Honduras Británica	es	Spanish
-	British Honduras	Honduras Britânicas	pt	Portuguese
-	British Honduras	Honduras Britannico	it	Italian
-	British Honduras	Honduras britannique	fr	French
-	British Honduras	Honduras Brytyjski	pl	Polish
-	British Honduras	பெலீசு		Tmail
-	British Virgin Islands	Bretsku Jomfrúoyggjar	fo	Faroese
-	British Virgin Islands	Britain Virgin Kûn-tó	nan	Min Nan
-	British Virgin Islands	Բրիտանական Վիրջինյան Կղզիներ	hy	Armenian
-	British Virgin Islands	Британска Девичанска острва	sr	Serbian
-	British Virgin Islands	Britanski Deviški otoki	sl	Slovene
-	British Virgin Islands	Britanski Djevičanski otoci	hr	Croatian
-	British Virgin Islands	Британски Вирджински острови	bg	Bulgarian
-	British Virgin Islands	Британські Віргінські острови	uk	Ukrainian
-	British Virgin Islands	Briti Neitsisaared	et	Estonian
-	British Virgin Islands	Britische Jungferninseln	de	German
-	British Virgin Islands	Britse Maagdeneilanden	nl	Dutch
-	British Virgin Islands	Britské Panenské ostrovy	cs	Czech
-	British Virgin Islands	Brittiläiset Neitsytsaaret	fi	Finnish
-	British Virgin Islands	Britu Virdžīnu salas	lv	Latvian
-	British Virgin Islands	Britų Mergelių salos	lt	Lithuanian
-	British Virgin Islands	Brit Virgen-szigetek	hu	Hungarian
-	British Virgin Islands	Brytyjskie Wyspy Dziewicze	pl	Polish
-	British Virgin Islands	Duni Virgin	wo	Wolof
-	British Virgin Islands	Duni Virgin (angalteer)	wo	Wolof
-	British Virgin Islands	Eileanan Breatannach na Maighdinn	gd	Scots Gaelic
-	British Virgin Islands	il-Gżejjer Verġni Brittaniċi	mt	Maltese
-	British Virgin Islands	イギリス領ヴァージン諸島	ja	Japanese
-	British Virgin Islands	Iles Vièrges britaniques	fr	Franco-Provençal
-	British Virgin Islands	Ilhas Virgens Britânicas	pt	Portuguese
-	British Virgin Islands	Illes Verges Britàniques	ca	Catalan
-	British Virgin Islands	Islas Birchens Britanicas	an	Aragonese
-	British Virgin Islands	Isole Vergini Britanniche	it	Italian
-	British Virgin Islands	איי הבתולה הבריטיים	he	Hebrew
-	British Virgin Islands	Kapuluang Birhen ng Britanya	tl	Tagalog
-	British Virgin Islands	Kapuluang Birhen ng Britanya	tl	Filipino
-	British Virgin Islands	Kepulauan Virgin British	ms	Malay
-	British Virgin Islands	Kepulauan Virgin Inggris	id	Indonesian
-	British Virgin Islands	หมู่เกาะบริติชเวอร์จิน	th	Thai
-	British Virgin Islands	หมู่เกาะเวอร์จินของอังกฤษ	th	Thai
-	British Virgin Islands	Puritisu Vaajin Qikiqtat	iu	Inuktitut
-	British Virgin Islands	영국령 버진아일랜드	ko	Korean
-	British Virgin Islands	英屬維爾京群島	zh	Chinese
-	British Virgin Islands	Insulele Virgine Britanice	ro	Romanian
-	British Virgin Islands	பிரிட்டிஷ் வெர்ஜின் தீவுகள்	ta	Tamil
-	British Virgin Islands	Britské Panenské ostrovy	sk	Slovak
-	British Virgin Islands	หมู่เกาะเวอร์จินของอังกฤษ	th	Thai
+bz	British Honduras	Британски Хондурас	sr	Serbian
+bz	British Honduras	Британский Гондурас	ru	Russian
+bz	British Honduras	Britisch-Honduras	de	German
+bz	British Honduras	Britisk Honduras	no	Norwegian
+bz	British Honduras	Brits-Honduras	nl	Dutch
+bz	British Honduras	Britský Honduras	cs	Czech
+bz	British Honduras	Brittiläinen Honduras	fi	Finnish
+bz	British Honduras	Britų Hondūras	lt	Lithuanian
+bz	British Honduras	Honduras Británica	es	Spanish
+bz	British Honduras	Honduras Britânicas	pt	Portuguese
+bz	British Honduras	Honduras Britannico	it	Italian
+bz	British Honduras	Honduras britannique	fr	French
+bz	British Honduras	Honduras Brytyjski	pl	Polish
+bz	British Honduras	பெலீசு		Tmail
+vg	British Virgin Islands	Bretsku Jomfrúoyggjar	fo	Faroese
+vg	British Virgin Islands	Britain Virgin Kûn-tó	nan	Min Nan
+vg	British Virgin Islands	Բրիտանական Վիրջինյան Կղզիներ	hy	Armenian
+vg	British Virgin Islands	Британска Девичанска острва	sr	Serbian
+vg	British Virgin Islands	Britanski Deviški otoki	sl	Slovene
+vg	British Virgin Islands	Britanski Djevičanski otoci	hr	Croatian
+vg	British Virgin Islands	Британски Вирджински острови	bg	Bulgarian
+vg	British Virgin Islands	Британські Віргінські острови	uk	Ukrainian
+vg	British Virgin Islands	Briti Neitsisaared	et	Estonian
+vg	British Virgin Islands	Britische Jungferninseln	de	German
+vg	British Virgin Islands	Britse Maagdeneilanden	nl	Dutch
+vg	British Virgin Islands	Britské Panenské ostrovy	cs	Czech
+vg	British Virgin Islands	Brittiläiset Neitsytsaaret	fi	Finnish
+vg	British Virgin Islands	Britu Virdžīnu salas	lv	Latvian
+vg	British Virgin Islands	Britų Mergelių salos	lt	Lithuanian
+vg	British Virgin Islands	Brit Virgen-szigetek	hu	Hungarian
+vg	British Virgin Islands	Brytyjskie Wyspy Dziewicze	pl	Polish
+vg	British Virgin Islands	Duni Virgin	wo	Wolof
+vg	British Virgin Islands	Duni Virgin (angalteer)	wo	Wolof
+vg	British Virgin Islands	Eileanan Breatannach na Maighdinn	gd	Scots Gaelic
+vg	British Virgin Islands	il-Gżejjer Verġni Brittaniċi	mt	Maltese
+vg	British Virgin Islands	イギリス領ヴァージン諸島	ja	Japanese
+vg	British Virgin Islands	Iles Vièrges britaniques	fr	Franco-Provençal
+vg	British Virgin Islands	Ilhas Virgens Britânicas	pt	Portuguese
+vg	British Virgin Islands	Illes Verges Britàniques	ca	Catalan
+vg	British Virgin Islands	Islas Birchens Britanicas	an	Aragonese
+vg	British Virgin Islands	Isole Vergini Britanniche	it	Italian
+vg	British Virgin Islands	איי הבתולה הבריטיים	he	Hebrew
+vg	British Virgin Islands	Kapuluang Birhen ng Britanya	tl	Tagalog
+vg	British Virgin Islands	Kapuluang Birhen ng Britanya	tl	Filipino
+vg	British Virgin Islands	Kepulauan Virgin British	ms	Malay
+vg	British Virgin Islands	Kepulauan Virgin Inggris	id	Indonesian
+vg	British Virgin Islands	หมู่เกาะบริติชเวอร์จิน	th	Thai
+vg	British Virgin Islands	หมู่เกาะเวอร์จินของอังกฤษ	th	Thai
+vg	British Virgin Islands	Puritisu Vaajin Qikiqtat	iu	Inuktitut
+vg	British Virgin Islands	영국령 버진아일랜드	ko	Korean
+vg	British Virgin Islands	英屬維爾京群島	zh	Chinese
+vg	British Virgin Islands	Insulele Virgine Britanice	ro	Romanian
+vg	British Virgin Islands	பிரிட்டிஷ் வெர்ஜின் தீவுகள்	ta	Tamil
+vg	British Virgin Islands	Britské Panenské ostrovy	sk	Slovak
+vg	British Virgin Islands	หมู่เกาะเวอร์จินของอังกฤษ	th	Thai
 bn	Brunei	브루나이	ko	Korean
 bn	Brunei	Broenei	af	Afrikaans
 bn	Brunei	Μπρουνέι	el	Greek
@@ -1973,65 +1975,65 @@ bf	Burkina Faso	Burkina Faso	ro	Romanian
 bf	Burkina Faso	Burkina Faso	sk	Slovak
 bf	Burkina Faso	Burkina Faso	sl	Slovene
 bf	Burkina Faso	Burkina Faso	es	Spanish
-	Burma	মায়ানমার	bn	Bengali
-	Burma	Abara - ma - འབར་མ།	bo	Tibetan
-	Burma	緬甸	zh	Chinese
-	Burma	缅甸	zh	Chinese
-	Burma	М'янма	be	Belarusian
-	Burma	Mianma	pl	Polish
-	Burma	Mianmá	pt	Portuguese
-	Burma	Mianmaara	iu	Inuktitut
-	Burma	Mianmar	af	Afrikaans
-	Burma	Miànmar	gd	Scots Gaelic
-	Burma	Мианмар	bg	Bulgarian
-	Burma	Μυανμάρ	el	Greek
-	Burma	Mianmaras	lt	Lithuanian
-	Burma	Miến Điện	vi	Vietnamese
-	Burma	Mijanmar	bs	Bosnian
-	Burma	미얀마	ko	Korean
-	Burma	Miyanmar	fr	Franco-Provençal
-	Burma	Mjanma	lv	Latvian
-	Burma	Mjanmar	fo	Faroese
-	Burma	Мјанмар	sr	Serbian
-	Burma	Mjanmarsko	sk	Slovak
-	Burma	Myanma	az	Azerbaijani
-	Burma	မြန်မာ	my	Burmese
-	Burma	ミャンマー	ja	Japanese
-	Burma	Мьянма	ru	Russian
-	Burma	М'янма	uk	Ukrainian
-	Burma	Myanmar	ace	Acehnese
-	Burma	Մյանմար	hy	Armenian
-	Burma	מיאנמר	he	Hebrew
-	Burma	மியான்மர்	ta	Tamil
-	Burma	Mianmar	pt	Portuguese
-	Burma	Mjanmar	sl	Slovene
-	Burma	Myanma	nan	Min Nan
-	Burma	Myanmar	de	Alemannic
-	Burma	Myanmar	an	Aragonese
-	Burma	Myanmar	ast	Asturian
-	Burma	Myanmar		Banyumasan
-	Burma	Myanmar		Central Bikolano
-	Burma	Myanmar	cs	Czech
-	Burma	Myanmar	da	Danish
-	Burma	Myanmar	nl	Dutch
-	Burma	Myanmar	et	Estonian
-	Burma	Myanmar	tl	Tagalog
-	Burma	Myanmar	tl	Filipino
-	Burma	Myanmar	fi	Finnish
-	Burma	Myanmar	fr	French
-	Burma	Myanmar	de	German
-	Burma	Myanmar	id	Indonesian
-	Burma	Myanmar	it	Italian
-	Burma	Myanmar	ms	Malay
-	Burma	Myanmar	mt	Maltese
-	Burma	Myanmar	no	Norwegian
-	Burma	Myanmar	pl	Polish
-	Burma	Myanmar	pt	Portuguese
-	Burma	Myanmar	ro	Romanian
-	Burma	Myanmar	es	Spanish
-	Burma	Myanmar	sv	Swedish
-	Burma	Myanmar	tr	Turkish
-	Burma	Myanmar	vro	Võro
+mm	Burma	মায়ানমার	bn	Bengali
+mm	Burma	Abara - ma - འབར་མ།	bo	Tibetan
+mm	Burma	緬甸	zh	Chinese
+mm	Burma	缅甸	zh	Chinese
+mm	Burma	М'янма	be	Belarusian
+mm	Burma	Mianma	pl	Polish
+mm	Burma	Mianmá	pt	Portuguese
+mm	Burma	Mianmaara	iu	Inuktitut
+mm	Burma	Mianmar	af	Afrikaans
+mm	Burma	Miànmar	gd	Scots Gaelic
+mm	Burma	Мианмар	bg	Bulgarian
+mm	Burma	Μυανμάρ	el	Greek
+mm	Burma	Mianmaras	lt	Lithuanian
+mm	Burma	Miến Điện	vi	Vietnamese
+mm	Burma	Mijanmar	bs	Bosnian
+mm	Burma	미얀마	ko	Korean
+mm	Burma	Miyanmar	fr	Franco-Provençal
+mm	Burma	Mjanma	lv	Latvian
+mm	Burma	Mjanmar	fo	Faroese
+mm	Burma	Мјанмар	sr	Serbian
+mm	Burma	Mjanmarsko	sk	Slovak
+mm	Burma	Myanma	az	Azerbaijani
+mm	Burma	မြန်မာ	my	Burmese
+mm	Burma	ミャンマー	ja	Japanese
+mm	Burma	Мьянма	ru	Russian
+mm	Burma	М'янма	uk	Ukrainian
+mm	Burma	Myanmar	ace	Acehnese
+mm	Burma	Մյանմար	hy	Armenian
+mm	Burma	מיאנמר	he	Hebrew
+mm	Burma	மியான்மர்	ta	Tamil
+mm	Burma	Mianmar	pt	Portuguese
+mm	Burma	Mjanmar	sl	Slovene
+mm	Burma	Myanma	nan	Min Nan
+mm	Burma	Myanmar	de	Alemannic
+mm	Burma	Myanmar	an	Aragonese
+mm	Burma	Myanmar	ast	Asturian
+mm	Burma	Myanmar		Banyumasan
+mm	Burma	Myanmar		Central Bikolano
+mm	Burma	Myanmar	cs	Czech
+mm	Burma	Myanmar	da	Danish
+mm	Burma	Myanmar	nl	Dutch
+mm	Burma	Myanmar	et	Estonian
+mm	Burma	Myanmar	tl	Tagalog
+mm	Burma	Myanmar	tl	Filipino
+mm	Burma	Myanmar	fi	Finnish
+mm	Burma	Myanmar	fr	French
+mm	Burma	Myanmar	de	German
+mm	Burma	Myanmar	id	Indonesian
+mm	Burma	Myanmar	it	Italian
+mm	Burma	Myanmar	ms	Malay
+mm	Burma	Myanmar	mt	Maltese
+mm	Burma	Myanmar	no	Norwegian
+mm	Burma	Myanmar	pl	Polish
+mm	Burma	Myanmar	pt	Portuguese
+mm	Burma	Myanmar	ro	Romanian
+mm	Burma	Myanmar	es	Spanish
+mm	Burma	Myanmar	sv	Swedish
+mm	Burma	Myanmar	tr	Turkish
+mm	Burma	Myanmar	vro	Võro
 bi	Burundi	布隆迪	zh	Chinese
 bi	Burundi	Burundaidh	gd	Scots Gaelic
 bi	Burundi	Burundi	ace	Acehnese
@@ -2272,65 +2274,65 @@ ca	Canada	Kanada	sv	Swedish
 ca	Canada	Kanada	tr	Turkish
 ca	Canada	Kanada	uz	Uzbek
 ca	Canada	Kanada	vro	Võro
-	Cape Verde	Cabo Verde	et	Estonian
-	Cape Verde	Cabu Verde	ast	Asturian
-	Cape Verde	Cape Verde	id	Indonesian
-	Cape Verde	Cap Ferde	cy	Welsh
-	Cape Verde	Capo Verde	it	Italian
-	Cape Verde	Capul Verde	ro	Romanian
-	Cape Verde	Cap Verd	ca	Catalan
-	Cape Verde	Cap-Vert	fr	French
-	Cape Verde	An Ceap Uaine	gd	Scots Gaelic
-	Cape Verde	佛得角	zh	Chinese
-	Cape Verde	Grænhöfðaeyjar	is	Icelandic
-	Cape Verde	Grønhøvdaoyggjar	fo	Faroese
-	Cape Verde	Kaapii Viitaa	iu	Inuktitut
-	Cape Verde	Kaap Verde	af	Afrikaans
-	Cape Verde	Kaapverdië	nl	Dutch
-	Cape Verde	Каба-Вэрдэ	be	Belarusian
-	Cape Verde	Kabo Bereude 	ko	Korean
-	Cape Verde	카보베르데	ko	Korean
-	Cape Verde	カーボ・ベルデ	ja	Japanese
-	Cape Verde	Кабо Верде	bg	Bulgarian
-	Cape Verde	Kabo Verde	lv	Latvian
-	Cape Verde	Кабо-Верде	ru	Russian
-	Cape Verde	Kabo-Verdo	eo	Esperanto
-	Cape Verde	Kape Vad	ig	Igbo
-	Cape Verde	Kap-Glas	br	Breton
-	Cape Verde	Kapp Verde	no	Norwegian
-	Cape Verde	Kap Verde	da	Danish
-	Cape Verde	Kapverdski otoci	hr	Croatian
-	Cape Verde	Kapverdy	cs	Czech
-	Cape Verde	כף ורדה	he	Hebrew
-	Cape Verde	เคปเวิร์ด	th	Thai
-	Cape Verde	Πράσινο Ακρωτήριο	el	Greek
-	Cape Verde	Q'umir Kawu	qu	Quechua
-	Cape Verde	Republica Capului Verde	ro	Romanian
-	Cape Verde	Republika Zielonego Przylądka	pl	Polish
-	Cape Verde	Roheneemesaared	et	Estonian
-	Cape Verde	Tanjung Verde	id	Indonesian
-	Cape Verde	Tónteel Bibąąh Dootłʼizhí	nv	Navajo
-	Cape Verde	維德角	zh	Chinese
-	Cape Verde	维德角	zh	Chinese
-	Cape Verde	Wyspy Zielonego Przylądka	pl	Polish
-	Cape Verde	Yeşil Burun	tr	Turkish
-	Cape Verde	Žaliasis Kyšulys	lt	Lithuanian
-	Cape Verde	Зеленортска острва	sr	Serbian
-	Cape Verde	Zelenortski otoki	sl	Slovene
-	Cape Verde	foki Szigetek	hu	Hungarian
-	Cape Verde	கேப் வேர்டே	ta	Tamil
-	Cape Verde	Cabo Verde	pl	Polish
-	Cape Verde	Cape Verde	ms	Malay
-	Cape Verde	Kabo Verde	tr	Turkish
-	Cape Verde	Кабо-Верде	uk	Ukrainian
-	Cape Verde	Kap Verde	fi	Finnish
-	Cape Verde	Kapverdy	sk	Slovak
-	Cape Verde	Cabo Verde	pt	Portuguese
-	Cape Verde	Cape Verde	mt	Maltese
-	Cape Verde	Kap Verde	de	German
-	Cape Verde	Cabo Verde	es	Spanish
-	Cape Verde	Kap Verde	sv	Swedish
-	Cape Verde	Cabo Verde	vro	Võro
+cv	Cape Verde	Cabo Verde	et	Estonian
+cv	Cape Verde	Cabu Verde	ast	Asturian
+cv	Cape Verde	Cape Verde	id	Indonesian
+cv	Cape Verde	Cap Ferde	cy	Welsh
+cv	Cape Verde	Capo Verde	it	Italian
+cv	Cape Verde	Capul Verde	ro	Romanian
+cv	Cape Verde	Cap Verd	ca	Catalan
+cv	Cape Verde	Cap-Vert	fr	French
+cv	Cape Verde	An Ceap Uaine	gd	Scots Gaelic
+cv	Cape Verde	佛得角	zh	Chinese
+cv	Cape Verde	Grænhöfðaeyjar	is	Icelandic
+cv	Cape Verde	Grønhøvdaoyggjar	fo	Faroese
+cv	Cape Verde	Kaapii Viitaa	iu	Inuktitut
+cv	Cape Verde	Kaap Verde	af	Afrikaans
+cv	Cape Verde	Kaapverdië	nl	Dutch
+cv	Cape Verde	Каба-Вэрдэ	be	Belarusian
+cv	Cape Verde	Kabo Bereude 	ko	Korean
+cv	Cape Verde	카보베르데	ko	Korean
+cv	Cape Verde	カーボ・ベルデ	ja	Japanese
+cv	Cape Verde	Кабо Верде	bg	Bulgarian
+cv	Cape Verde	Kabo Verde	lv	Latvian
+cv	Cape Verde	Кабо-Верде	ru	Russian
+cv	Cape Verde	Kabo-Verdo	eo	Esperanto
+cv	Cape Verde	Kape Vad	ig	Igbo
+cv	Cape Verde	Kap-Glas	br	Breton
+cv	Cape Verde	Kapp Verde	no	Norwegian
+cv	Cape Verde	Kap Verde	da	Danish
+cv	Cape Verde	Kapverdski otoci	hr	Croatian
+cv	Cape Verde	Kapverdy	cs	Czech
+cv	Cape Verde	כף ורדה	he	Hebrew
+cv	Cape Verde	เคปเวิร์ด	th	Thai
+cv	Cape Verde	Πράσινο Ακρωτήριο	el	Greek
+cv	Cape Verde	Q'umir Kawu	qu	Quechua
+cv	Cape Verde	Republica Capului Verde	ro	Romanian
+cv	Cape Verde	Republika Zielonego Przylądka	pl	Polish
+cv	Cape Verde	Roheneemesaared	et	Estonian
+cv	Cape Verde	Tanjung Verde	id	Indonesian
+cv	Cape Verde	Tónteel Bibąąh Dootłʼizhí	nv	Navajo
+cv	Cape Verde	維德角	zh	Chinese
+cv	Cape Verde	维德角	zh	Chinese
+cv	Cape Verde	Wyspy Zielonego Przylądka	pl	Polish
+cv	Cape Verde	Yeşil Burun	tr	Turkish
+cv	Cape Verde	Žaliasis Kyšulys	lt	Lithuanian
+cv	Cape Verde	Зеленортска острва	sr	Serbian
+cv	Cape Verde	Zelenortski otoki	sl	Slovene
+cv	Cape Verde	foki Szigetek	hu	Hungarian
+cv	Cape Verde	கேப் வேர்டே	ta	Tamil
+cv	Cape Verde	Cabo Verde	pl	Polish
+cv	Cape Verde	Cape Verde	ms	Malay
+cv	Cape Verde	Kabo Verde	tr	Turkish
+cv	Cape Verde	Кабо-Верде	uk	Ukrainian
+cv	Cape Verde	Kap Verde	fi	Finnish
+cv	Cape Verde	Kapverdy	sk	Slovak
+cv	Cape Verde	Cabo Verde	pt	Portuguese
+cv	Cape Verde	Cape Verde	mt	Maltese
+cv	Cape Verde	Kap Verde	de	German
+cv	Cape Verde	Cabo Verde	es	Spanish
+cv	Cape Verde	Kap Verde	sv	Swedish
+cv	Cape Verde	Cabo Verde	vro	Võro
 ky	Cayman Islands	איי קיימן	he	Hebrew
 ky	Cayman Islands	Eileanan Caimean	gd	Scots Gaelic
 ky	Cayman Islands	il-Gżejjer Cayman	mt	Maltese
@@ -3297,31 +3299,31 @@ cz	Czech Republic	Češka	sl	Slovene
 cz	Czech Republic	Česká republika	sk	Slovak
 cz	Czech Republic	Česko	sk	Slovak
 cz	Czech Republic	Чехия	ru	Russian
-	Dahomey	Дагомея	ru	Russian
-	Dahomey	ダホメ	ja	Japanese
-	Dahomey	Dahomee	et	Estonian
-	Dahomey	Dahomej	pl	Polish
-	Dahomey	Dahomėja	lt	Lithuanian
-	Dahomey	Dahomey	br	Breton
-	Dahomey	Dahómey	is	Icelandic
-	Dahomey	Daomé	pt	Portuguese
-	Dahomey	il-Benin	mt	Maltese
-	Dahomey	பெனின்	ta	Tamil
-	Dahomey	Дагомея	uk	Ukrainian
-	Dahomey	Dahomey	nl	Dutch
-	Dahomey	Dahomey	fi	Finnish
-	Dahomey	Dahomey	fr	French
-	Dahomey	Dahomey	de	German
-	Dahomey	Dahomey	hu	Hungarian
-	Dahomey	Dahomey	id	Indonesian
-	Dahomey	Dahomey	it	Italian
-	Dahomey	Dahomey	ro	Romanian
-	Dahomey	Dahomey	es	Spanish
-	Dahomey	Dahomey	sw	Swahili
-	Dahomey	Dahomey	sv	Swedish
-	Dahomey	Dahomey	tl	Tagalog
-	Dahomey	Dahomey		Venetian
-	Dahomey	Dahomey	vi	Vietnamese
+bj	Dahomey	Дагомея	ru	Russian
+bj	Dahomey	ダホメ	ja	Japanese
+bj	Dahomey	Dahomee	et	Estonian
+bj	Dahomey	Dahomej	pl	Polish
+bj	Dahomey	Dahomėja	lt	Lithuanian
+bj	Dahomey	Dahomey	br	Breton
+bj	Dahomey	Dahómey	is	Icelandic
+bj	Dahomey	Daomé	pt	Portuguese
+bj	Dahomey	il-Benin	mt	Maltese
+bj	Dahomey	பெனின்	ta	Tamil
+bj	Dahomey	Дагомея	uk	Ukrainian
+bj	Dahomey	Dahomey	nl	Dutch
+bj	Dahomey	Dahomey	fi	Finnish
+bj	Dahomey	Dahomey	fr	French
+bj	Dahomey	Dahomey	de	German
+bj	Dahomey	Dahomey	hu	Hungarian
+bj	Dahomey	Dahomey	id	Indonesian
+bj	Dahomey	Dahomey	it	Italian
+bj	Dahomey	Dahomey	ro	Romanian
+bj	Dahomey	Dahomey	es	Spanish
+bj	Dahomey	Dahomey	sw	Swahili
+bj	Dahomey	Dahomey	sv	Swedish
+bj	Dahomey	Dahomey	tl	Tagalog
+bj	Dahomey	Dahomey		Venetian
+bj	Dahomey	Dahomey	vi	Vietnamese
 dk	Denmark	Danemarc	rm	Romansh
 dk	Denmark	Danemarca	ro	Romanian
 dk	Denmark	Dänemark	de	Alemannic
@@ -3561,73 +3563,73 @@ do	Dominican Republic	Dominikaanse Republiek	nl	Dutch
 do	Dominican Republic	Доминиканска република	sr	Serbian
 do	Dominican Republic	República Dominicana	pt	Portuguese
 do	Dominican Republic	República Dominicana	es	Spanish
-	East Timor	पूर्वी तिमोर	hi	Hindi
-	East Timor	Ανατολικό Τιμόρ	el	Greek
-	East Timor	Anti Timur	qu	Quechua
-	East Timor	Արևելյան Թիմոր	hy	Armenian
-	East Timor	Austrumtimora	lv	Latvian
-	East Timor	Tímor	is	Icelandic
-	East Timor	Doğu Timor	tr	Turkish
-	East Timor	東帝汶	zh	Chinese
-	East Timor	东帝汶	zh	Chinese
-	East Timor	동티모르	ko	Korean
-	East Timor	Dwyrain Timor	cy	Welsh
-	East Timor	Eysturtimor	fo	Faroese
-	East Timor	東ティモール	ja	Japanese
-	East Timor	Hummogu-Timor	vro	Võro
-	East Timor	Ida-Timor	et	Estonian
-	East Timor	Источен Тимор	mk	Macedonian
-	East Timor	Източен Тимор	bg	Bulgarian
-	East Timor	Istočni Timor	hr	Croatian
-	East Timor	Источни Тимор	sr	Serbian
-	East Timor	Itä-Timor	fi	Finnish
-	East Timor	Kannganarnirvik	iu	Inuktitut
-	East Timor	מזרח טימור	he	Hebrew
-	East Timor	Oos-Timor	af	Afrikaans
-	East Timor	Oost-Timor	nl	Dutch
-	East Timor	Orienta Timoro	eo	Esperanto
-	East Timor	Osttimor	de	Alemannic
-	East Timor	Østtimor	da	Danish
-	East Timor	Øst-Timor	no	Norwegian
-	East Timor	Östtimor	sv	Swedish
-	East Timor	Rytų Timoras	lt	Lithuanian
-	East Timor	Silangang Timor	tl	Tagalog
-	East Timor	Silangang Timor	tl	Filipino
-	East Timor	Східний Тимор	uk	Ukrainian
-	East Timor	Tiomor an Ear	gd	Scots Gaelic
-	East Timor	تيمور شرقي	fa	Persian
-	East Timor	Timor Est	it	Italian
-	East Timor	Timoria Orientalis	la	Latin
-	East Timor	Timori Lindorë	sq	Albanian
-	East Timor	Timor Leste	ace	Acehnese
-	East Timor	Timor-Leste	en	English
-	East Timor	ติมอร์-เลสเต	th	Thai
-	East Timor	Timor Lorosae		Tetum
-	East Timor	Timor Oriental	an	Aragonese
-	East Timor	Timor orientâl	fr	Franco-Provençal
-	East Timor	it-Timor tal-Lvant	mt	Maltese
-	East Timor	Timor Timur	id	Indonesian
-	East Timor	Timorul de Est	ro	Romanian
-	East Timor	Timor Wétan	jv	Javanese
-	East Timor	Timor Wschodni	pl	Polish
-	East Timor	تيمور الشرقية	ar	Arabic
-	East Timor	Усходні Тымор	be	Belarusian
-	East Timor	Восточный Тимор	ru	Russian
-	East Timor	Východní Timor	cs	Czech
-	East Timor	Východný Timor	sk	Slovak
-	East Timor	Vzhodni Timor	sl	Slovene
-	East Timor	Kelet-Timor	hu	Hungarian
-	East Timor	கிழக்கு திமோர்	ta	Tamil
-	East Timor	مشرقی ٹیمور	ur	Urdu
-	East Timor	Timor-Leste	et	Estonian
-	East Timor	Timor Oriental	ca	Catalan
-	East Timor	Timor Timur	ms	Malay
-	East Timor	Timor Wétan	su	Sundanese
-	East Timor	Timor-Leste	de	German
-	East Timor	Timor Oriental	fr	French
-	East Timor	Timor-Leste	pt	Portuguese
-	East Timor	Timor Oriental	es	Spanish
-	East Timor	Timor-Leste	es	Spanish
+tl	East Timor	पूर्वी तिमोर	hi	Hindi
+tl	East Timor	Ανατολικό Τιμόρ	el	Greek
+tl	East Timor	Anti Timur	qu	Quechua
+tl	East Timor	Արևելյան Թիմոր	hy	Armenian
+tl	East Timor	Austrumtimora	lv	Latvian
+tl	East Timor	Tímor	is	Icelandic
+tl	East Timor	Doğu Timor	tr	Turkish
+tl	East Timor	東帝汶	zh	Chinese
+tl	East Timor	东帝汶	zh	Chinese
+tl	East Timor	동티모르	ko	Korean
+tl	East Timor	Dwyrain Timor	cy	Welsh
+tl	East Timor	Eysturtimor	fo	Faroese
+tl	East Timor	東ティモール	ja	Japanese
+tl	East Timor	Hummogu-Timor	vro	Võro
+tl	East Timor	Ida-Timor	et	Estonian
+tl	East Timor	Источен Тимор	mk	Macedonian
+tl	East Timor	Източен Тимор	bg	Bulgarian
+tl	East Timor	Istočni Timor	hr	Croatian
+tl	East Timor	Источни Тимор	sr	Serbian
+tl	East Timor	Itä-Timor	fi	Finnish
+tl	East Timor	Kannganarnirvik	iu	Inuktitut
+tl	East Timor	מזרח טימור	he	Hebrew
+tl	East Timor	Oos-Timor	af	Afrikaans
+tl	East Timor	Oost-Timor	nl	Dutch
+tl	East Timor	Orienta Timoro	eo	Esperanto
+tl	East Timor	Osttimor	de	Alemannic
+tl	East Timor	Østtimor	da	Danish
+tl	East Timor	Øst-Timor	no	Norwegian
+tl	East Timor	Östtimor	sv	Swedish
+tl	East Timor	Rytų Timoras	lt	Lithuanian
+tl	East Timor	Silangang Timor	tl	Tagalog
+tl	East Timor	Silangang Timor	tl	Filipino
+tl	East Timor	Східний Тимор	uk	Ukrainian
+tl	East Timor	Tiomor an Ear	gd	Scots Gaelic
+tl	East Timor	تيمور شرقي	fa	Persian
+tl	East Timor	Timor Est	it	Italian
+tl	East Timor	Timoria Orientalis	la	Latin
+tl	East Timor	Timori Lindorë	sq	Albanian
+tl	East Timor	Timor Leste	ace	Acehnese
+tl	East Timor	Timor-Leste	en	English
+tl	East Timor	ติมอร์-เลสเต	th	Thai
+tl	East Timor	Timor Lorosae		Tetum
+tl	East Timor	Timor Oriental	an	Aragonese
+tl	East Timor	Timor orientâl	fr	Franco-Provençal
+tl	East Timor	it-Timor tal-Lvant	mt	Maltese
+tl	East Timor	Timor Timur	id	Indonesian
+tl	East Timor	Timorul de Est	ro	Romanian
+tl	East Timor	Timor Wétan	jv	Javanese
+tl	East Timor	Timor Wschodni	pl	Polish
+tl	East Timor	تيمور الشرقية	ar	Arabic
+tl	East Timor	Усходні Тымор	be	Belarusian
+tl	East Timor	Восточный Тимор	ru	Russian
+tl	East Timor	Východní Timor	cs	Czech
+tl	East Timor	Východný Timor	sk	Slovak
+tl	East Timor	Vzhodni Timor	sl	Slovene
+tl	East Timor	Kelet-Timor	hu	Hungarian
+tl	East Timor	கிழக்கு திமோர்	ta	Tamil
+tl	East Timor	مشرقی ٹیمور	ur	Urdu
+tl	East Timor	Timor-Leste	et	Estonian
+tl	East Timor	Timor Oriental	ca	Catalan
+tl	East Timor	Timor Timur	ms	Malay
+tl	East Timor	Timor Wétan	su	Sundanese
+tl	East Timor	Timor-Leste	de	German
+tl	East Timor	Timor Oriental	fr	French
+tl	East Timor	Timor-Leste	pt	Portuguese
+tl	East Timor	Timor Oriental	es	Spanish
+tl	East Timor	Timor-Leste	es	Spanish
 ec	Ecuador	Eacuador	gd	Scots Gaelic
 ec	Ecuador	ईक्वाडोर	hi	Hindi
 ec	Ecuador	Ecuador	af	Afrikaans
@@ -3811,37 +3813,37 @@ sv	El Salvador	El Salvador	es	Spanish
 sv	El Salvador	El Salvador	sv	Swedish
 sv	El Salvador	El Salvador	tr	Turkish
 sv	El Salvador	El Salvador	vro	Võro
-	England	ब्रितान	hi	Hindi
-	England	इंग्रिस्तान	hi	Hindi
-	England	बिलायत	hi	Hindi
-	England	বিলেত		Bilet
-	England	Angleterre	fr	French
-	England	Anglia	pl	Polish
-	England	Anglia	ro	Romanian
-	England	Anglicko	sk	Slovak
-	England	Anglie	cs	Czech
-	England	Anglija	lv	Latvian
-	England	Anglija	lt	Lithuanian
-	England	Англия	ru	Russian
-	England	Inglaterra	es	Spanish
-	England	Engeland	nl	Dutch
-	England	England	de	German
-	England	England انگلیس	fa	Persian
-	England	Inghilterra	it	Italian
-	England	Inggris	id	Indonesian
-	England	Inggeris	ms	Malay
-	England	l-Ingilterra	mt	Maltese
-	England	İngiltere	tr	Turkish
-	England	Inglaterra	pt	Portuguese
-	England	Inlatirra	qu	Quechua
-	England	Inglismaa	et	Estonian
-	England	Lloegr	cy	Welsh
-	England	Sasainn	gd	Scots Gaelic
-	England	Sasana	ga	Irish
-	England	انگلینڈ	ur	Urdu
-	England	বিলেত	bn	Bengali
-	England	Англия	uk	Ukrainian
-	England	England	da	Danish
+gb	England	ब्रितान	hi	Hindi
+gb	England	इंग्रिस्तान	hi	Hindi
+gb	England	बिलायत	hi	Hindi
+gb	England	বিলেত		Bilet
+gb	England	Angleterre	fr	French
+gb	England	Anglia	pl	Polish
+gb	England	Anglia	ro	Romanian
+gb	England	Anglicko	sk	Slovak
+gb	England	Anglie	cs	Czech
+gb	England	Anglija	lv	Latvian
+gb	England	Anglija	lt	Lithuanian
+gb	England	Англия	ru	Russian
+gb	England	Inglaterra	es	Spanish
+gb	England	Engeland	nl	Dutch
+gb	England	England	de	German
+gb	England	England انگلیس	fa	Persian
+gb	England	Inghilterra	it	Italian
+gb	England	Inggris	id	Indonesian
+gb	England	Inggeris	ms	Malay
+gb	England	l-Ingilterra	mt	Maltese
+gb	England	İngiltere	tr	Turkish
+gb	England	Inglaterra	pt	Portuguese
+gb	England	Inlatirra	qu	Quechua
+gb	England	Inglismaa	et	Estonian
+gb	England	Lloegr	cy	Welsh
+gb	England	Sasainn	gd	Scots Gaelic
+gb	England	Sasana	ga	Irish
+gb	England	انگلینڈ	ur	Urdu
+gb	England	বিলেত	bn	Bengali
+gb	England	Англия	uk	Ukrainian
+gb	England	England	da	Danish
 gq	Equatorial Guinea	Ækvatorialguinea	da	Danish
 gq	Equatorial Guinea	Äquatorialguinea	de	Alemannic
 gq	Equatorial Guinea	Chawpipacha Khiniya	qu	Quechua
@@ -4157,7 +4159,8 @@ fk	Falkland Islands	Insulele Falklands	ro	Romanian
 fk	Falkland Islands	Islas Malbinas	an	Aragonese
 fk	Falkland Islands	Islas Malvinas	es	Spanish
 fk	Falkland Islands	Islles Malvines	ast	Asturian
-fk	Falkland Islands	Isole Falkland or Malvine	it	Italian
+fk	Falkland Islands	Isole Falkland	it	Italian
+fk	Falkland Islands	Malvine	it	Italian
 fk	Falkland Islands	Kapupud-ang Falkland		Cebuano
 fk	Falkland Islands	Kepulauan Falklands	id	Indonesian
 fk	Falkland Islands	Malwiny	pl	Polish
@@ -4542,38 +4545,38 @@ pf	French Polynesia	Ranskan Polynesia	fi	Finnish
 pf	French Polynesia	Francia Polinézia	hu	Hungarian
 pf	French Polynesia	பிரஞ்சு பொலினீசியா	ta	Tamil
 pf	French Polynesia	French Polynesia پولی‌نزی فرانسه	fa	Persian
-	French Southern and Antarctic Lands	Douaroù Aostral hag Antarktikel Frañs	br	Breton
-	French Southern and Antarctic Lands	האיים הדרומיים והאנטקרטיקים הצרפתיים	he	Hebrew
-	French Southern and Antarctic Lands	Talmhan Deasach is Antartaigeach na Frainge	gd	Scots Gaelic
-	French Southern and Antarctic Lands	Francijas Dienvidu un Antarktiskās Teritorijas	lv	Latvian
-	French Southern and Antarctic Lands	Francouzská jižní a antarktická území	cs	Czech
-	French Southern and Antarctic Lands	Francúzske južné a antarktické územia	sk	Slovak
-	French Southern and Antarctic Lands	Француске јужне и антарктичке земље	sr	Serbian
-	French Southern and Antarctic Lands	Francuskie Terytoria Południowe i Antarktyczne	pl	Polish
-	French Southern and Antarctic Lands	Franse Suidelike en Antarktiese Gebiede	af	Afrikaans
-	French Southern and Antarctic Lands	Францускія Паўднёвыя Тэрыторыі		Berlarusian
-	French Southern and Antarctic Lands	Французькі Південні і Антарктичні території	uk	Ukrainian
-	French Southern and Antarctic Lands	Frantziaren lurralde austral eta antartikoak	eu	Basque
-	French Southern and Antarctic Lands	Französische Süd- und Antarktisgebiete	de	German
-	French Southern and Antarctic Lands	เฟรนช์เซาเทิร์นแอนด์แอนตาร์กติกแทร์ริทอรีส์	th	Thai
-	French Southern and Antarctic Lands	Френски южни и Антарктически територии	bg	Bulgarian
-	French Southern and Antarctic Lands	フランス領南方南極地域	ja	Japanese
-	French Southern and Antarctic Lands	Γαλλικά νότια και ανταρκτικά εδάφη	el	Greek
-	French Southern and Antarctic Lands	l-Artijiet Antartiċi u Sud Franċiżi	mt	Maltese
-	French Southern and Antarctic Lands	프랑스령 남부와 남극 지역	ko	Korean
-	French Southern and Antarctic Lands	Prancūzijos Pietų Sritys	lt	Lithuanian
-	French Southern and Antarctic Lands	Prantsuse Antarktika ja Lõunaalad	et	Estonian
-	French Southern and Antarctic Lands	Puransiup Kivangalu Nunarjuap ataa	iu	Inuktitut
-	French Southern and Antarctic Lands	Ranskan eteläisten ja antarktisten alueiden territorio	fi	Finnish
-	French Southern and Antarctic Lands	Teritori Perancis Selatan dan Antartika	id	Indonesian
-	French Southern and Antarctic Lands	Terras Austrais e Antárticas Francesas	pt	Portuguese
-	French Southern and Antarctic Lands	Terres australes et antarctiques françaises	fr	French
-	French Southern and Antarctic Lands	Terres Australs i Antàrtiques Franceses	ca	Catalan
-	French Southern and Antarctic Lands	Territori Australi e Antartici Francesi	it	Italian
-	French Southern and Antarctic Lands	Territorios Australs Franzeses	an	Aragonese
-	French Southern and Antarctic Lands	Tierras Australes y Antárticas Francesas	es	Spanish
-	French Southern and Antarctic Lands	பிரஞ்சு தெற்கு மற்றும் அண்டார்க்டிக் நிலங்கள்	ta	Tamil
-	French Southern and Antarctic Lands	French Polynesia پولی‌نزی فرانسه	fa	Persian
+tf	French Southern and Antarctic Lands	Douaroù Aostral hag Antarktikel Frañs	br	Breton
+tf	French Southern and Antarctic Lands	האיים הדרומיים והאנטקרטיקים הצרפתיים	he	Hebrew
+tf	French Southern and Antarctic Lands	Talmhan Deasach is Antartaigeach na Frainge	gd	Scots Gaelic
+tf	French Southern and Antarctic Lands	Francijas Dienvidu un Antarktiskās Teritorijas	lv	Latvian
+tf	French Southern and Antarctic Lands	Francouzská jižní a antarktická území	cs	Czech
+tf	French Southern and Antarctic Lands	Francúzske južné a antarktické územia	sk	Slovak
+tf	French Southern and Antarctic Lands	Француске јужне и антарктичке земље	sr	Serbian
+tf	French Southern and Antarctic Lands	Francuskie Terytoria Południowe i Antarktyczne	pl	Polish
+tf	French Southern and Antarctic Lands	Franse Suidelike en Antarktiese Gebiede	af	Afrikaans
+tf	French Southern and Antarctic Lands	Францускія Паўднёвыя Тэрыторыі		Berlarusian
+tf	French Southern and Antarctic Lands	Французькі Південні і Антарктичні території	uk	Ukrainian
+tf	French Southern and Antarctic Lands	Frantziaren lurralde austral eta antartikoak	eu	Basque
+tf	French Southern and Antarctic Lands	Französische Süd- und Antarktisgebiete	de	German
+tf	French Southern and Antarctic Lands	เฟรนช์เซาเทิร์นแอนด์แอนตาร์กติกแทร์ริทอรีส์	th	Thai
+tf	French Southern and Antarctic Lands	Френски южни и Антарктически територии	bg	Bulgarian
+tf	French Southern and Antarctic Lands	フランス領南方南極地域	ja	Japanese
+tf	French Southern and Antarctic Lands	Γαλλικά νότια και ανταρκτικά εδάφη	el	Greek
+tf	French Southern and Antarctic Lands	l-Artijiet Antartiċi u Sud Franċiżi	mt	Maltese
+tf	French Southern and Antarctic Lands	프랑스령 남부와 남극 지역	ko	Korean
+tf	French Southern and Antarctic Lands	Prancūzijos Pietų Sritys	lt	Lithuanian
+tf	French Southern and Antarctic Lands	Prantsuse Antarktika ja Lõunaalad	et	Estonian
+tf	French Southern and Antarctic Lands	Puransiup Kivangalu Nunarjuap ataa	iu	Inuktitut
+tf	French Southern and Antarctic Lands	Ranskan eteläisten ja antarktisten alueiden territorio	fi	Finnish
+tf	French Southern and Antarctic Lands	Teritori Perancis Selatan dan Antartika	id	Indonesian
+tf	French Southern and Antarctic Lands	Terras Austrais e Antárticas Francesas	pt	Portuguese
+tf	French Southern and Antarctic Lands	Terres australes et antarctiques françaises	fr	French
+tf	French Southern and Antarctic Lands	Terres Australs i Antàrtiques Franceses	ca	Catalan
+tf	French Southern and Antarctic Lands	Territori Australi e Antartici Francesi	it	Italian
+tf	French Southern and Antarctic Lands	Territorios Australs Franzeses	an	Aragonese
+tf	French Southern and Antarctic Lands	Tierras Australes y Antárticas Francesas	es	Spanish
+tf	French Southern and Antarctic Lands	பிரஞ்சு தெற்கு மற்றும் அண்டார்க்டிக் நிலங்கள்	ta	Tamil
+tf	French Southern and Antarctic Lands	French Polynesia پولی‌نزی فرانسه	fa	Persian
 ga	Gabon	Gabão	pt	Portuguese
 ga	Gabon	Gaboen	af	Afrikaans
 ga	Gabon	ጋቦን	am	Amharic
@@ -4730,7 +4733,8 @@ de	Germany	도이칠란트	ko	Korean
 de	Germany	ドイツ	ja	Japanese
 de	Germany	独逸or獨乙	ja	Japanese
 de	Germany	dotygu'e		Lojban
-de	Germany	Đức Quốc or Đức	vi	Vietnamese
+de	Germany	Đức Quốc	Vietnamese
+de	Germany	Đức	vi	Vietnamese
 de	Germany	Duiska		Sami
 de	Germany	Duitsland	af	Afrikaans
 de	Germany	Dútslân	fy	Frisian
@@ -5708,7 +5712,8 @@ hu	Hungary	Hangarii	iu	Inuktitut
 hu	Hungary	ฮังการี	th	Thai
 hu	Hungary	헝가리	ko	Korean
 hu	Hungary	Hongaria	ace	Acehnese
-hu	Hungary	Hongaria or Hungaria	id	Indonesian
+hu	Hungary	Hongaria	id	Indonesian
+hu	Hungary	Hungaria	id	Indonesian
 hu	Hungary	Hongarije	nl	Dutch
 hu	Hungary	Hongarye	af	Afrikaans
 hu	Hungary	Hongria	ca	Catalan
@@ -6730,73 +6735,73 @@ ki	Kiribati	Kiribati	es	Spanish
 ki	Kiribati	Kiribati	sv	Swedish
 ki	Kiribati	Kiribati	tr	Turkish
 ki	Kiribati	Kiribati	vro	Võro
-	Korea	朝鮮	zh	Chinese
-	Korea	朝鲜	zh	Chinese
-	Korea	조선	ko	Korean
-	Korea	Coiria	gd	Scots Gaelic
-	Korea	Corea	ast	Asturian
-	Korea	Corée	fr	French
-	Korea	Coréia	pt	Portuguese
-	Korea	Coreia	pt	Portuguese
-	Korea	한국	ko	Korean
-	Korea	韓國	zh	Chinese
-	Korea	韩国	zh	Chinese
-	Korea	Hân-kok	nan	Min Nan
-	Korea	Nam Triều Tiên	vi	Vietnamese
-	Korea	Hàn Quốc	vi	Vietnamese
-	Korea	il-Korea	mt	Maltese
-	Korea	韓国	ja	Japanese
-	Korea	大韓民国	ja	Japanese
-	Korea	เกาหลี	th	Thai
-	Korea	北朝鮮	ja	Japanese
-	Korea	朝鮮民主主義人民共和国	ja	Japanese
-	Korea	كره	fa	Persian
-	Korea	Kore	tr	Turkish
-	Korea	Korea	af	Afrikaans
-	Korea	Կորեա	hy	Armenian
-	Korea	Κορέα	el	Greek
-	Korea	קוריאה	he	Hebrew
-	Korea	Корей		Ossetic
-	Korea	Koreio	eo	Esperanto
-	Korea	Koreja	bs	Bosnian
-	Korea	Kòreja		Kashubian
-	Korea	Korėja	lt	Lithuanian
-	Korea	Кореја	sr	Serbian
-	Korea	Корея	bg	Bulgarian
-	Korea	कोरिया	hi	Hindi
-	Korea	Coreea	ro	Romanian
-	Korea	Kuria	iu	Inuktitut
-	Korea	Солонгос	mn	Mongolian
-	Korea	கொரியா	ta	Tamil
-	Korea	Corea	gl	Galician
-	Korea	Korea	eu	Basque
-	Korea	Koreja	hr	Croatian
-	Korea	Корея	ru	Russian
-	Korea	Corea	it	Italian
-	Korea	Korea	br	Breton
-	Korea	Koreja	lv	Latvian
-	Korea	Корея	uk	Ukrainian
-	Korea	Corea	es	Spanish
-	Korea	Korea	cs	Czech
-	Korea	Koreja	sl	Slovene
-	Korea	Corea	cy	Welsh
-	Korea	Korea	da	Danish
-	Korea	Korea	nl	Dutch
-	Korea	Korea	et	Estonian
-	Korea	Korea	fo	Faroese
-	Korea	Korea	tl	Filipino
-	Korea	Korea	tl	Tagalog
-	Korea	Korea	fi	Finnish
-	Korea	Korea	de	German
-	Korea	Korea	hu	Hungarian
-	Korea	Korea	id	Indonesian
-	Korea	Korea	jv	Javanese
-	Korea	Korea	ms	Malay
-	Korea	Korea	no	Norwegian
-	Korea	Korea	pl	Polish
-	Korea	Korea	sw	Swahili
-	Korea	Korea	sv	Swedish
-	Korea	Korea	vro	Võro
+kr	Korea	朝鮮	zh	Chinese
+kr	Korea	朝鲜	zh	Chinese
+kr	Korea	조선	ko	Korean
+kr	Korea	Coiria	gd	Scots Gaelic
+kr	Korea	Corea	ast	Asturian
+kr	Korea	Corée	fr	French
+kr	Korea	Coréia	pt	Portuguese
+kr	Korea	Coreia	pt	Portuguese
+kr	Korea	한국	ko	Korean
+kr	Korea	韓國	zh	Chinese
+kr	Korea	韩国	zh	Chinese
+kr	Korea	Hân-kok	nan	Min Nan
+kr	Korea	Nam Triều Tiên	vi	Vietnamese
+kr	Korea	Hàn Quốc	vi	Vietnamese
+kr	Korea	il-Korea	mt	Maltese
+kr	Korea	韓国	ja	Japanese
+kr	Korea	大韓民国	ja	Japanese
+kr	Korea	เกาหลี	th	Thai
+kr	Korea	北朝鮮	ja	Japanese
+kr	Korea	朝鮮民主主義人民共和国	ja	Japanese
+kr	Korea	كره	fa	Persian
+kr	Korea	Kore	tr	Turkish
+kr	Korea	Korea	af	Afrikaans
+kr	Korea	Կորեա	hy	Armenian
+kr	Korea	Κορέα	el	Greek
+kr	Korea	קוריאה	he	Hebrew
+kr	Korea	Корей		Ossetic
+kr	Korea	Koreio	eo	Esperanto
+kr	Korea	Koreja	bs	Bosnian
+kr	Korea	Kòreja		Kashubian
+kr	Korea	Korėja	lt	Lithuanian
+kr	Korea	Кореја	sr	Serbian
+kr	Korea	Корея	bg	Bulgarian
+kr	Korea	कोरिया	hi	Hindi
+kr	Korea	Coreea	ro	Romanian
+kr	Korea	Kuria	iu	Inuktitut
+kr	Korea	Солонгос	mn	Mongolian
+kr	Korea	கொரியா	ta	Tamil
+kr	Korea	Corea	gl	Galician
+kr	Korea	Korea	eu	Basque
+kr	Korea	Koreja	hr	Croatian
+kr	Korea	Корея	ru	Russian
+kr	Korea	Corea	it	Italian
+kr	Korea	Korea	br	Breton
+kr	Korea	Koreja	lv	Latvian
+kr	Korea	Корея	uk	Ukrainian
+kr	Korea	Corea	es	Spanish
+kr	Korea	Korea	cs	Czech
+kr	Korea	Koreja	sl	Slovene
+kr	Korea	Corea	cy	Welsh
+kr	Korea	Korea	da	Danish
+kr	Korea	Korea	nl	Dutch
+kr	Korea	Korea	et	Estonian
+kr	Korea	Korea	fo	Faroese
+kr	Korea	Korea	tl	Filipino
+kr	Korea	Korea	tl	Tagalog
+kr	Korea	Korea	fi	Finnish
+kr	Korea	Korea	de	German
+kr	Korea	Korea	hu	Hungarian
+kr	Korea	Korea	id	Indonesian
+kr	Korea	Korea	jv	Javanese
+kr	Korea	Korea	ms	Malay
+kr	Korea	Korea	no	Norwegian
+kr	Korea	Korea	pl	Polish
+kr	Korea	Korea	sw	Swahili
+kr	Korea	Korea	sv	Swedish
+kr	Korea	Korea	vro	Võro
 kw	Kuwait	Coveite	pt	Portuguese
 kw	Kuwait	Cuibhèit	gd	Scots Gaelic
 kw	Kuwait	科威特	zh	Chinese
@@ -6933,60 +6938,60 @@ kg	Kyrgyzstan	Kirgistan	fi	Finnish
 kg	Kyrgyzstan	Kirgistan	id	Indonesian
 kg	Kyrgyzstan	Kirgistan		Kapampangan
 kg	Kyrgyzstan	Kirgistan	pl	Polish
-	Laos	il-Laos	mt	Maltese
-	Laos	ລາວ	lo	Lao
-	Laos	ลาว	th	Thai
-	Laos	Lào	vi	Vietnamese
-	Laos	Lao-kok	nan	Min Nan
-	Laos	Laos	ace	Acehnese
-	Laos	Լաոս	hy	Armenian
-	Laos	Лаос	be	Belarusian
-	Laos	Λάος	el	Greek
-	Laos	לאוס	he	Hebrew
-	Laos	لائوس	fa	Persian
-	Laos	লাওস	bn	Bengali
-	Laos	Laosa	lv	Latvian
-	Laos	Laosas	lt	Lithuanian
-	Laos	Laoso	eo	Esperanto
-	Laos	Laosz	hu	Hungarian
-	Laos	老挝	zh	Chinese
-	Laos	Làthos	gd	Scots Gaelic
-	Laos	Lausi	iu	Inuktitut
-	Laos	寮國	zh	Chinese
-	Laos	라오스	ko	Korean
-	Laos	ラオス	ja	Japanese
-	Laos	லாவோஸ்	ta	Tamil
-	Laos	Laos	af	Afrikaans
-	Laos	Лаос	bg	Bulgarian
-	Laos	Laos	de	Alemannic
-	Laos	Лаос	ru	Russian
-	Laos	Laos	an	Aragonese
-	Laos	Лаос	sr	Serbian
-	Laos	Laos	ast	Asturian
-	Laos	Лаос	uk	Ukrainian
-	Laos	Laos	az	Azerbaijani
-	Laos	Laos		Central Bikolano
-	Laos	Laos	cs	Czech
-	Laos	Laos	da	Danish
-	Laos	Laos	nl	Dutch
-	Laos	Laos	et	Estonian
-	Laos	Laos	fo	Faroese
-	Laos	Laos	tl	Filipino
-	Laos	Laos	tl	Tagalog
-	Laos	Laos	fi	Finnish
-	Laos	Laos	fr	Franco-Provençal
-	Laos	Laos	fr	French
-	Laos	Laos	de	German
-	Laos	Laos	id	Indonesian
-	Laos	Laos	it	Italian
-	Laos	Laos	ms	Malay
-	Laos	Laos	no	Norwegian
-	Laos	Laos	pl	Polish
-	Laos	Laos	pt	Portuguese
-	Laos	Laos	ro	Romanian
-	Laos	Laos	sl	Slovene
-	Laos	Laos	es	Spanish
-	Laos	Laos	tr	Turkish
+la	Laos	il-Laos	mt	Maltese
+la	Laos	ລາວ	lo	Lao
+la	Laos	ลาว	th	Thai
+la	Laos	Lào	vi	Vietnamese
+la	Laos	Lao-kok	nan	Min Nan
+la	Laos	Laos	ace	Acehnese
+la	Laos	Լաոս	hy	Armenian
+la	Laos	Лаос	be	Belarusian
+la	Laos	Λάος	el	Greek
+la	Laos	לאוס	he	Hebrew
+la	Laos	لائوس	fa	Persian
+la	Laos	লাওস	bn	Bengali
+la	Laos	Laosa	lv	Latvian
+la	Laos	Laosas	lt	Lithuanian
+la	Laos	Laoso	eo	Esperanto
+la	Laos	Laosz	hu	Hungarian
+la	Laos	老挝	zh	Chinese
+la	Laos	Làthos	gd	Scots Gaelic
+la	Laos	Lausi	iu	Inuktitut
+la	Laos	寮國	zh	Chinese
+la	Laos	라오스	ko	Korean
+la	Laos	ラオス	ja	Japanese
+la	Laos	லாவோஸ்	ta	Tamil
+la	Laos	Laos	af	Afrikaans
+la	Laos	Лаос	bg	Bulgarian
+la	Laos	Laos	de	Alemannic
+la	Laos	Лаос	ru	Russian
+la	Laos	Laos	an	Aragonese
+la	Laos	Лаос	sr	Serbian
+la	Laos	Laos	ast	Asturian
+la	Laos	Лаос	uk	Ukrainian
+la	Laos	Laos	az	Azerbaijani
+la	Laos	Laos		Central Bikolano
+la	Laos	Laos	cs	Czech
+la	Laos	Laos	da	Danish
+la	Laos	Laos	nl	Dutch
+la	Laos	Laos	et	Estonian
+la	Laos	Laos	fo	Faroese
+la	Laos	Laos	tl	Filipino
+la	Laos	Laos	tl	Tagalog
+la	Laos	Laos	fi	Finnish
+la	Laos	Laos	fr	Franco-Provençal
+la	Laos	Laos	fr	French
+la	Laos	Laos	de	German
+la	Laos	Laos	id	Indonesian
+la	Laos	Laos	it	Italian
+la	Laos	Laos	ms	Malay
+la	Laos	Laos	no	Norwegian
+la	Laos	Laos	pl	Polish
+la	Laos	Laos	pt	Portuguese
+la	Laos	Laos	ro	Romanian
+la	Laos	Laos	sl	Slovene
+la	Laos	Laos	es	Spanish
+la	Laos	Laos	tr	Turkish
 lv	Latvia	an Laitbhe	gd	Scots Gaelic
 lv	Latvia	an Laitvia	ga	Irish
 lv	Latvia	Latbiya	tl	Tagalog
@@ -7410,28 +7415,28 @@ lt	Lithuania	Lituania	la	Latin
 lt	Lithuania	Lituania	ro	Romanian
 lt	Lithuania	Lituania	rm	Romansh
 lt	Lithuania	Lituania	es	Spanish
-	Lower Austria	Alam-Austria	et	Estonian
-	Lower Austria	Alsó-Ausztria	hu	Hungarian
-	Lower Austria	Aşağı Avusturya	tr	Turkish
-	Lower Austria	Austria Inferioară	ro	Romanian
-	Lower Austria	Baixa Áustria	pt	Portuguese
-	Lower Austria	Baja Austria	es	Spanish
-	Lower Austria	Bassa Austria	it	Italian
-	Lower Austria	Basse-Autriche	fr	French
-	Lower Austria	Dolna Austria	pl	Polish
-	Lower Austria	Dolné Rakúsko	sl	Slovene
-	Lower Austria	Dolní Rakousy	cs	Czech
-	Lower Austria	Dolní Rakousko	cs	Czech
-	Lower Austria	Donja Austrija	bs	Bosnian
-	Lower Austria	Neder-Oostenrijk	nl	Dutch
-	Lower Austria	Neder-Oostenryk	af	Afrikaans
-	Lower Austria	Neðra Austurríki		Islandic
-	Lower Austria	Niederösterreich	de	German
-	Lower Austria	Spodnja Avstrija	sk	Slovak
-	Lower Austria	Нижняя Австрия	ru	Russian
-	Lower Austria	Нижня Австрія	uk	Ukrainian
-	Lower Austria	An Ostair Ìochdarach	gd	Scots Gaelic
-	Lower Austria	Donja Austrija	hr	Croatian
+at	Lower Austria	Alam-Austria	et	Estonian
+at	Lower Austria	Alsó-Ausztria	hu	Hungarian
+at	Lower Austria	Aşağı Avusturya	tr	Turkish
+at	Lower Austria	Austria Inferioară	ro	Romanian
+at	Lower Austria	Baixa Áustria	pt	Portuguese
+at	Lower Austria	Baja Austria	es	Spanish
+at	Lower Austria	Bassa Austria	it	Italian
+at	Lower Austria	Basse-Autriche	fr	French
+at	Lower Austria	Dolna Austria	pl	Polish
+at	Lower Austria	Dolné Rakúsko	sl	Slovene
+at	Lower Austria	Dolní Rakousy	cs	Czech
+at	Lower Austria	Dolní Rakousko	cs	Czech
+at	Lower Austria	Donja Austrija	bs	Bosnian
+at	Lower Austria	Neder-Oostenrijk	nl	Dutch
+at	Lower Austria	Neder-Oostenryk	af	Afrikaans
+at	Lower Austria	Neðra Austurríki		Islandic
+at	Lower Austria	Niederösterreich	de	German
+at	Lower Austria	Spodnja Avstrija	sk	Slovak
+at	Lower Austria	Нижняя Австрия	ru	Russian
+at	Lower Austria	Нижня Австрія	uk	Ukrainian
+at	Lower Austria	An Ostair Ìochdarach	gd	Scots Gaelic
+at	Lower Austria	Donja Austrija	hr	Croatian
 lu	Luxembourg	ลักเซมเบิร์ก	th	Thai
 lu	Luxembourg	Lëtzebuerg	lb	Luxembourgish
 lu	Luxembourg	Liuksemburgas	lt	Lithuanian
@@ -7508,46 +7513,46 @@ lu	Luxembourg	Luxemburg	id	Indonesian
 lu	Luxembourg	Luxemburg	ro	Romanian
 lu	Luxembourg	Luxemburg	rm	Romansh
 lu	Luxembourg	Luxemburg	sv	Swedish
-	Macau	Aomen	et	Estonian
-	Macau	澳門	zh	Chinese
-	Macau	Áo Môn	vi	Vietnamese
-	Macau	il-Macao	mt	Maltese
-	Macau	Macao		Austro-Bavarian
-	Macau	Macàthu	gd	Scots Gaelic
-	Macau	Macau	ace	Acehnese
-	Macau	Макао	be	Belarusian
-	Macau	Makao	bs	Bosnian
-	Macau	マカオ	ja	Japanese
-	Macau	마카오	ko	Korean
-	Macau	มาเก๊า	th	Thai
-	Macau	Makau	fo	Faroese
-	Macau	Μακάου	el	Greek
-	Macau	מקאו	he	Hebrew
-	Macau	Makau	id	Indonesian
-	Macau	Makáw	tl	Tagalog
-	Macau	Ò-mn^g	nan	Min Nan
-	Macau	மகாவ்	ta	Tamil
-	Macau	Macao	cs	Czech
-	Macau	Macau	af	Afrikaans
-	Macau	Макао	bg	Bulgarian
-	Macau	Makao	br	Breton
-	Macau	Makau	iu	Inuktitut
-	Macau	Makau	pl	Polish
-	Macau	Macao	tl	Tagalog
-	Macau	Macau	an	Aragonese
-	Macau	Макао	sr	Serbian
-	Macau	Makao	lv	Latvian
-	Macau	Macao	fi	Finnish
-	Macau	Macau	ca	Catalan
-	Macau	Макао	uk	Ukrainian
-	Macau	Makao	lt	Lithuanian
-	Macau	Macao	pl	Polish
-	Macau	Macau		Central Bikolano
-	Macau	Macao	ro	Romanian
-	Macau	Macau	et	Estonian
-	Macau	Macao	es	Spanish
-	Macau	Macau	id	Indonesian
-	Macau	Macau	pt	Portuguese
+mo	Macau	Aomen	et	Estonian
+mo	Macau	澳門	zh	Chinese
+mo	Macau	Áo Môn	vi	Vietnamese
+mo	Macau	il-Macao	mt	Maltese
+mo	Macau	Macao		Austro-Bavarian
+mo	Macau	Macàthu	gd	Scots Gaelic
+mo	Macau	Macau	ace	Acehnese
+mo	Macau	Макао	be	Belarusian
+mo	Macau	Makao	bs	Bosnian
+mo	Macau	マカオ	ja	Japanese
+mo	Macau	마카오	ko	Korean
+mo	Macau	มาเก๊า	th	Thai
+mo	Macau	Makau	fo	Faroese
+mo	Macau	Μακάου	el	Greek
+mo	Macau	מקאו	he	Hebrew
+mo	Macau	Makau	id	Indonesian
+mo	Macau	Makáw	tl	Tagalog
+mo	Macau	Ò-mn^g	nan	Min Nan
+mo	Macau	மகாவ்	ta	Tamil
+mo	Macau	Macao	cs	Czech
+mo	Macau	Macau	af	Afrikaans
+mo	Macau	Макао	bg	Bulgarian
+mo	Macau	Makao	br	Breton
+mo	Macau	Makau	iu	Inuktitut
+mo	Macau	Makau	pl	Polish
+mo	Macau	Macao	tl	Tagalog
+mo	Macau	Macau	an	Aragonese
+mo	Macau	Макао	sr	Serbian
+mo	Macau	Makao	lv	Latvian
+mo	Macau	Macao	fi	Finnish
+mo	Macau	Macau	ca	Catalan
+mo	Macau	Макао	uk	Ukrainian
+mo	Macau	Makao	lt	Lithuanian
+mo	Macau	Macao	pl	Polish
+mo	Macau	Macau		Central Bikolano
+mo	Macau	Macao	ro	Romanian
+mo	Macau	Macau	et	Estonian
+mo	Macau	Macao	es	Spanish
+mo	Macau	Macau	id	Indonesian
+mo	Macau	Macau	pt	Portuguese
 mk	Macedonia	Macédoine	fr	French
 mk	Macedonia	Macedônia	pt	Portuguese
 mk	Macedonia	Macedonia	an	Aragonese
@@ -9069,44 +9074,44 @@ nl	Netherlands	Países Baixos	pt	Portuguese
 nl	Netherlands	Nederland	no	Norwegian
 nl	Netherlands	Olanda	mt	Maltese
 nl	Netherlands	Olanda	ro	Romanian
-	Netherlands Antilles	Alankomaiden Antillit	fi	Finnish
-	Netherlands Antilles	Antia Hulandes		Papiamento
-	Netherlands Antilles	Antilele Olandeze	ro	Romanian
-	Netherlands Antilles	Antiles nêrlandêses	fr	Franco-Provençal
-	Netherlands Antilles	Antilhas Holandesas	pt	Portuguese
-	Netherlands Antilles	Antilhez Nederlandat	br	Breton
-	Netherlands Antilles	אנטילים הולנדים	he	Hebrew
-	Netherlands Antilles	Antilla Belanda	id	Indonesian
-	Netherlands Antilles	Antillas Holandesas	es	Spanish
-	Netherlands Antilles	Antillas Neerlandesas	an	Aragonese
-	Netherlands Antilles	Antilles Neerlandeses	ca	Catalan
-	Netherlands Antilles	Antilles yr Iseldiroedd	cy	Welsh
-	Netherlands Antilles	l-Antilli Olandiżi	mt	Maltese
-	Netherlands Antilles	Antilya-Holan	tl	Filipino
-	Netherlands Antilles	Antilya-Holan	tl	Tagalog
-	Netherlands Antilles	Antyle Holenderskie	pl	Polish
-	Netherlands Antilles	Eileanan Aintilia nan Tìrean Ìsle		Scottish Gaelic
-	Netherlands Antilles	荷属安的列斯	zh	Chinese
-	Netherlands Antilles	Holandski Antili	bs	Bosnian
-	Netherlands Antilles	Холандски Антили	bg	Bulgarian
-	Netherlands Antilles	Hollandi Antillid	et	Estonian
-	Netherlands Antilles	Kē-tē-kok Antilles	nan	Min Nan
-	Netherlands Antilles	නෙදර්ලන්ත ඇන්ටිලස්	si	Sinhala
-	Netherlands Antilles	네덜란드령 안틸레스	ko	Korean
-	Netherlands Antilles	Nederlandse Antille	af	Afrikaans
-	Netherlands Antilles	Nederlandse Antillen	nl	Dutch
-	Netherlands Antilles	เนเธอร์แลนด์แอนทิลเลส	th	Thai
-	Netherlands Antilles	Nīderlandes Antiļas	lv	Latvian
-	Netherlands Antilles	Нідэрляндзкія Антылы	be	Belarusian
-	Netherlands Antilles	Niederländische Antillen	de	German
-	Netherlands Antilles	Нідерландські Антили	uk	Ukrainian
-	Netherlands Antilles	Nitsiirlantisu Antillisu	iu	Inuktitut
-	Netherlands Antilles	Nizozemské Antily	cs	Czech
-	Netherlands Antilles	Nyderlandų Antilai	lt	Lithuanian
-	Netherlands Antilles	Ολλανδικές Αντίλλες	el	Greek
-	Netherlands Antilles	オランダ領アンティル	ja	Japanese
-	Netherlands Antilles	நெதர்லாந்து அண்டிலிசு	ta	Tamil
-	Netherlands Antilles	Холандски Антили	sr	Serbian
+an	Netherlands Antilles	Alankomaiden Antillit	fi	Finnish
+an	Netherlands Antilles	Antia Hulandes		Papiamento
+an	Netherlands Antilles	Antilele Olandeze	ro	Romanian
+an	Netherlands Antilles	Antiles nêrlandêses	fr	Franco-Provençal
+an	Netherlands Antilles	Antilhas Holandesas	pt	Portuguese
+an	Netherlands Antilles	Antilhez Nederlandat	br	Breton
+an	Netherlands Antilles	אנטילים הולנדים	he	Hebrew
+an	Netherlands Antilles	Antilla Belanda	id	Indonesian
+an	Netherlands Antilles	Antillas Holandesas	es	Spanish
+an	Netherlands Antilles	Antillas Neerlandesas	an	Aragonese
+an	Netherlands Antilles	Antilles Neerlandeses	ca	Catalan
+an	Netherlands Antilles	Antilles yr Iseldiroedd	cy	Welsh
+an	Netherlands Antilles	l-Antilli Olandiżi	mt	Maltese
+an	Netherlands Antilles	Antilya-Holan	tl	Filipino
+an	Netherlands Antilles	Antilya-Holan	tl	Tagalog
+an	Netherlands Antilles	Antyle Holenderskie	pl	Polish
+an	Netherlands Antilles	Eileanan Aintilia nan Tìrean Ìsle		Scottish Gaelic
+an	Netherlands Antilles	荷属安的列斯	zh	Chinese
+an	Netherlands Antilles	Holandski Antili	bs	Bosnian
+an	Netherlands Antilles	Холандски Антили	bg	Bulgarian
+an	Netherlands Antilles	Hollandi Antillid	et	Estonian
+an	Netherlands Antilles	Kē-tē-kok Antilles	nan	Min Nan
+an	Netherlands Antilles	නෙදර්ලන්ත ඇන්ටිලස්	si	Sinhala
+an	Netherlands Antilles	네덜란드령 안틸레스	ko	Korean
+an	Netherlands Antilles	Nederlandse Antille	af	Afrikaans
+an	Netherlands Antilles	Nederlandse Antillen	nl	Dutch
+an	Netherlands Antilles	เนเธอร์แลนด์แอนทิลเลส	th	Thai
+an	Netherlands Antilles	Nīderlandes Antiļas	lv	Latvian
+an	Netherlands Antilles	Нідэрляндзкія Антылы	be	Belarusian
+an	Netherlands Antilles	Niederländische Antillen	de	German
+an	Netherlands Antilles	Нідерландські Антили	uk	Ukrainian
+an	Netherlands Antilles	Nitsiirlantisu Antillisu	iu	Inuktitut
+an	Netherlands Antilles	Nizozemské Antily	cs	Czech
+an	Netherlands Antilles	Nyderlandų Antilai	lt	Lithuanian
+an	Netherlands Antilles	Ολλανδικές Αντίλλες	el	Greek
+an	Netherlands Antilles	オランダ領アンティル	ja	Japanese
+an	Netherlands Antilles	நெதர்லாந்து அண்டிலிசு	ta	Tamil
+an	Netherlands Antilles	Холандски Антили	sr	Serbian
 nc	New Caledonia	Bagong Kalidonya	tl	Tagalog
 nc	New Caledonia	Cailleann Nuadh	gd	Scots Gaelic
 nc	New Caledonia	Caledonia Newydd	cy	Welsh
@@ -10441,30 +10446,30 @@ qa	Qatar	Katar	tr	Turkish
 qa	Qatar	Qatar	es	Spanish
 qa	Qatar	Qatar	sv	Swedish
 qa	Qatar	Qatar	tt	Tatar
-	Reunion	Adunia	cy	Welsh
-	Reunion	留尼汪	zh	Chinese
-	Reunion	Միություն	hy	Armenian
-	Reunion	Реинион	sr	Serbian
-	Reunion	Reinjona	lv	Latvian
-	Reunion	Reunião	pt	Portuguese
-	Reunion	Reunion	pl	Polish
-	Reunion	Réunion	cs	Czech
-	Reunion	เรอูนียง	th	Thai
-	Reunion	ראוניון	he	Hebrew
-	Reunion	Reunjonas	lt	Lithuanian
-	Reunion	레위니옹	ko	Korean
-	Reunion	Реюнион	bg	Bulgarian
-	Reunion	Реюньон	ru	Russian
-	Reunion	Реюньйон	uk	Ukrainian
-	Reunion	レユニオン	ja	Japanese
-	Reunion	Rijuniun	iu	Inuktitut
-	Reunion	Riunione	it	Italian
-	Reunion	ரீயூனியன்	ta	Tamil
-	Reunion	Réunion	nl	Dutch
-	Reunion	Réunion	et	Estonian
-	Reunion	Réunion	fi	Finnish
-	Reunion	Réunion	de	German
-	Reunion	Réunion	mt	Maltese
+re	Reunion	Adunia	cy	Welsh
+re	Reunion	留尼汪	zh	Chinese
+re	Reunion	Միություն	hy	Armenian
+re	Reunion	Реинион	sr	Serbian
+re	Reunion	Reinjona	lv	Latvian
+re	Reunion	Reunião	pt	Portuguese
+re	Reunion	Reunion	pl	Polish
+re	Reunion	Réunion	cs	Czech
+re	Reunion	เรอูนียง	th	Thai
+re	Reunion	ראוניון	he	Hebrew
+re	Reunion	Reunjonas	lt	Lithuanian
+re	Reunion	레위니옹	ko	Korean
+re	Reunion	Реюнион	bg	Bulgarian
+re	Reunion	Реюньон	ru	Russian
+re	Reunion	Реюньйон	uk	Ukrainian
+re	Reunion	レユニオン	ja	Japanese
+re	Reunion	Rijuniun	iu	Inuktitut
+re	Reunion	Riunione	it	Italian
+re	Reunion	ரீயூனியன்	ta	Tamil
+re	Reunion	Réunion	nl	Dutch
+re	Reunion	Réunion	et	Estonian
+re	Reunion	Réunion	fi	Finnish
+re	Reunion	Réunion	de	German
+re	Reunion	Réunion	mt	Maltese
 ro	Romania	Errumania	eu	Basque
 ro	Romania	羅馬尼亞	zh	Chinese
 ro	Romania	罗马尼亚	zh	Chinese
@@ -10985,105 +10990,105 @@ sa	Saudi Arabia	Saudi-Arabia	id	Indonesian
 sa	Saudi Arabia	Saudi-Arabien	no	Norwegian
 sa	Saudi Arabia	Arabia Saudita	es	Spanish
 sa	Saudi Arabia	Saudi-Arabien	de	German
-	Scotland	Alba	gd	Scots Gaelic
-	Scotland	Albain	ga	Irish
-	Scotland	Alban	kw	Cornish
-	Scotland	yr Alban	cy	Welsh
-	Scotland	Bro-Skos	br	Breton
-	Scotland	Skos	br	Breton
-	Scotland	Écosse	fr	French
-	Scotland	Ekòs	ht	Haitian Creole
-	Scotland	Ekósi	ln	Lingala
-	Scotland	Ekôsy	mg	Malagasy
-	Scotland	Escocia	ast	Asturian
-	Scotland	Escócia	pt	Portuguese
-	Scotland	Escòcia	ca	Catalan
-	Scotland	Escozia	an	Aragonese
-	Scotland	Eskosya	tl	Tagalog
-	Scotland	Eskozia	eu	Basque
-	Scotland	isiKhohlandi; isiKotilandi	zu	Zulu
-	Scotland	iSikhwahlende	ss	Swati
-	Scotland	İskoçya	tr	Turkish
-	Scotland	iSkotlani	xh	Xhosa
-	Scotland	Iskusya	qu	Quechua
-	Scotland	Koterana		Maori
-	Scotland	Nalbin	gv	Manx
-	Scotland	Schåtlönj	fy	Frisian
-	Scotland	Schotland	nl	Dutch
-	Scotland	Schottland	de	German
-	Scotland	Scotlandia		Aromanian
-	Scotland	Scoţia	ro	Romanian
-	Scotland	Scozia	co	Corsican
-	Scotland	Scozie		Friulian
-	Scotland	Sjotland		Lim
-	Scotland	Skocia; Skotlanda	sq	Albanian
-	Scotland	Skócia	hu	Hungarian
-	Scotland	סקוסיה		Ladino
-	Scotland	Σκοτία	el	Greek
-	Scotland	Σκωτία	el	Greek
-	Scotland	Skotija	lv	Latvian
-	Scotland	Skotlân	fy	Frisian
-	Scotland	Skotland	af	Afrikaans
-	Scotland	Skotlánda		Northern Saami
-	Scotland	Skotlanti	fi	Finnish
-	Scotland	Skotsko	cs	Czech
-	Scotland	Skottland	no	Norwegian
-	Scotland	Skozja	mt	Maltese
-	Scotland	l-Iskozja	mt	Maltese
-	Scotland	Sotimaa	vro	Voro
-	Scotland	Szkocja	pl	Polish
-	Scotland	סקוטלנד	he	Hebrew
-	Scotland	Шкоцыя	be	Belarusian
-	Scotland	Шатландыя	be	Belarusian
-	Scotland	Škotija	lt	Lithuanian
-	Scotland	Škotska	bs	Bosnian
-	Scotland	Шкотска	mk	Macedonian
-	Scotland	Škótsko	sk	Slovak
-	Scotland	Šotimaa	et	Estonian
-	Scotland	Šotiska		Sorbian
-	Scotland	Шотландий		Meadow Mari
-	Scotland	Шотландия		Abaza
-	Scotland	Шотландiя	uk	Ukrainian
-	Scotland	Şotlandiä	tt	Tatar
-	Scotland	Şotlandiya	az	Azerbaijani
-	Scotland	Şotlandiýa	tk	Turkmen
-	Scotland	スコットランド	ja	Japanese
-	Scotland	ஸ்காட்லாந்து	ta	Tamil
-	Scotland	'Iskootlaan	so	Somali
-	Scotland	Alba	ga	Irish
-	Scotland	Escocia	gl	Galician
-	Scotland	Escòcia	oc	Occitan
-	Scotland	Schottland		Luxemburgish
-	Scotland	Scozia	it	Italian
-	Scotland	Skotland	da	Danish
-	Scotland	Skottland	sv	Swedish
-	Scotland	Škotska	hr	Croatian
-	Scotland	Шкотска	sr	Serbian
-	Scotland	Шотландия	ab	Abkhaz
-	Scotland	Şotlandiya		Gagauz
-	Scotland	Escocia	es	Spanish
-	Scotland	Scozia		Ladin
-	Scotland	Skotland	fo	Faroese
-	Scotland	Škotska		Montenegrin
-	Scotland	Шотландия		Altai
-	Scotland	Scozia		Romansch
-	Scotland	Skotland	is	Icelandic
-	Scotland	Škotska		Slovenian
-	Scotland	Шотландия	ba	Bashkir
-	Scotland	Skotland	no	Norwegian
-	Scotland	Шотландия	bg	Bulgarian
-	Scotland	Шотландия		Karachay-Balkar
-	Scotland	Шотландия		Karakalpak
-	Scotland	Шотландия	kk	Kazakh
-	Scotland	Шотландия		Kirgiz
-	Scotland	Шотландия	kv	Komi
-	Scotland	Шотландия		Kumyk
-	Scotland	Шотландия	ru	Russian
-	Scotland	Шотландия	tg	Tajik
-	Scotland	Шотландия		Tat
-	Scotland	Шотландия		Tuvinian
-	Scotland	Шотландия		Udmurt
-	Scotland	Шотландия	uz	Uzbek
+gb	Scotland	Alba	gd	Scots Gaelic
+gb	Scotland	Albain	ga	Irish
+gb	Scotland	Alban	kw	Cornish
+gb	Scotland	yr Alban	cy	Welsh
+gb	Scotland	Bro-Skos	br	Breton
+gb	Scotland	Skos	br	Breton
+gb	Scotland	Écosse	fr	French
+gb	Scotland	Ekòs	ht	Haitian Creole
+gb	Scotland	Ekósi	ln	Lingala
+gb	Scotland	Ekôsy	mg	Malagasy
+gb	Scotland	Escocia	ast	Asturian
+gb	Scotland	Escócia	pt	Portuguese
+gb	Scotland	Escòcia	ca	Catalan
+gb	Scotland	Escozia	an	Aragonese
+gb	Scotland	Eskosya	tl	Tagalog
+gb	Scotland	Eskozia	eu	Basque
+gb	Scotland	isiKhohlandi; isiKotilandi	zu	Zulu
+gb	Scotland	iSikhwahlende	ss	Swati
+gb	Scotland	İskoçya	tr	Turkish
+gb	Scotland	iSkotlani	xh	Xhosa
+gb	Scotland	Iskusya	qu	Quechua
+gb	Scotland	Koterana		Maori
+gb	Scotland	Nalbin	gv	Manx
+gb	Scotland	Schåtlönj	fy	Frisian
+gb	Scotland	Schotland	nl	Dutch
+gb	Scotland	Schottland	de	German
+gb	Scotland	Scotlandia		Aromanian
+gb	Scotland	Scoţia	ro	Romanian
+gb	Scotland	Scozia	co	Corsican
+gb	Scotland	Scozie		Friulian
+gb	Scotland	Sjotland		Lim
+gb	Scotland	Skocia; Skotlanda	sq	Albanian
+gb	Scotland	Skócia	hu	Hungarian
+gb	Scotland	סקוסיה		Ladino
+gb	Scotland	Σκοτία	el	Greek
+gb	Scotland	Σκωτία	el	Greek
+gb	Scotland	Skotija	lv	Latvian
+gb	Scotland	Skotlân	fy	Frisian
+gb	Scotland	Skotland	af	Afrikaans
+gb	Scotland	Skotlánda		Northern Saami
+gb	Scotland	Skotlanti	fi	Finnish
+gb	Scotland	Skotsko	cs	Czech
+gb	Scotland	Skottland	no	Norwegian
+gb	Scotland	Skozja	mt	Maltese
+gb	Scotland	l-Iskozja	mt	Maltese
+gb	Scotland	Sotimaa	vro	Voro
+gb	Scotland	Szkocja	pl	Polish
+gb	Scotland	סקוטלנד	he	Hebrew
+gb	Scotland	Шкоцыя	be	Belarusian
+gb	Scotland	Шатландыя	be	Belarusian
+gb	Scotland	Škotija	lt	Lithuanian
+gb	Scotland	Škotska	bs	Bosnian
+gb	Scotland	Шкотска	mk	Macedonian
+gb	Scotland	Škótsko	sk	Slovak
+gb	Scotland	Šotimaa	et	Estonian
+gb	Scotland	Šotiska		Sorbian
+gb	Scotland	Шотландий		Meadow Mari
+gb	Scotland	Шотландия		Abaza
+gb	Scotland	Шотландiя	uk	Ukrainian
+gb	Scotland	Şotlandiä	tt	Tatar
+gb	Scotland	Şotlandiya	az	Azerbaijani
+gb	Scotland	Şotlandiýa	tk	Turkmen
+gb	Scotland	スコットランド	ja	Japanese
+gb	Scotland	ஸ்காட்லாந்து	ta	Tamil
+gb	Scotland	'Iskootlaan	so	Somali
+gb	Scotland	Alba	ga	Irish
+gb	Scotland	Escocia	gl	Galician
+gb	Scotland	Escòcia	oc	Occitan
+gb	Scotland	Schottland		Luxemburgish
+gb	Scotland	Scozia	it	Italian
+gb	Scotland	Skotland	da	Danish
+gb	Scotland	Skottland	sv	Swedish
+gb	Scotland	Škotska	hr	Croatian
+gb	Scotland	Шкотска	sr	Serbian
+gb	Scotland	Шотландия	ab	Abkhaz
+gb	Scotland	Şotlandiya		Gagauz
+gb	Scotland	Escocia	es	Spanish
+gb	Scotland	Scozia		Ladin
+gb	Scotland	Skotland	fo	Faroese
+gb	Scotland	Škotska		Montenegrin
+gb	Scotland	Шотландия		Altai
+gb	Scotland	Scozia		Romansch
+gb	Scotland	Skotland	is	Icelandic
+gb	Scotland	Škotska		Slovenian
+gb	Scotland	Шотландия	ba	Bashkir
+gb	Scotland	Skotland	no	Norwegian
+gb	Scotland	Шотландия	bg	Bulgarian
+gb	Scotland	Шотландия		Karachay-Balkar
+gb	Scotland	Шотландия		Karakalpak
+gb	Scotland	Шотландия	kk	Kazakh
+gb	Scotland	Шотландия		Kirgiz
+gb	Scotland	Шотландия	kv	Komi
+gb	Scotland	Шотландия		Kumyk
+gb	Scotland	Шотландия	ru	Russian
+gb	Scotland	Шотландия	tg	Tajik
+gb	Scotland	Шотландия		Tat
+gb	Scotland	Шотландия		Tuvinian
+gb	Scotland	Шотландия		Udmurt
+gb	Scotland	Шотландия	uz	Uzbek
 sn	Senegal	Henekara		Maori
 sn	Senegal	is-Senegal	mt	Maltese
 sn	Senegal	塞內加爾	zh	Chinese
@@ -11155,7 +11160,8 @@ rs	Serbia	Srbija	sl	Slovene
 rs	Serbia	Србија	sr	Serbian
 rs	Serbia	Srbsko	cs	Czech
 rs	Serbia	Szerbia	hu	Hungarian
-rs	Serbia	Shkinia or Republika e Shkive	sq	Albanian
+rs	Serbia	Shkinia	sq	Albanian
+rs	Serbia	Republika e Shkive	sq	Albanian
 rs	Serbia	செர்பியா	ta	Tamil
 rs	Serbia	Seerbiya	so	Somali
 rs	Serbia	Serbia	eu	Basque
@@ -11610,35 +11616,6 @@ kr	South Korea	Zuid-Korea	nl	Dutch
 kr	South Korea	Zuud-Korea	li	Limburgish
 kr	South Korea	தென் கொரியா	ta	Tamil
 kr	South Korea	Sydkorea	sv	Swedish
-	South Ossetia	Osàidea a Deas	gd	Scots Gaelic
-	South Ossetia	Ossezia del Sud	it	Italian
-	South Ossetia	República de Osetia del Sur	es	Spanish
-	South Ossetia	Osetia de Sud	ro	Romanian
-	South Ossetia	L'Ossétie du Sud	fr	French
-	South Ossetia	l-Ossezja t'Isfel	mt	Maltese
-	South Ossetia	Ossétia do Sul	pt	Portuguese
-	South Ossetia	Samkhret` Oset`i სამხრეთ ოსეთი	ka	Georgian
-	South Ossetia	Dél-Oszétia	hu	Hungarian
-	South Ossetia	Dienvidosetija	lv	Latvian
-	South Ossetia	דרום אוסטיה	he	Hebrew
-	South Ossetia	Etelä-Ossetia	fi	Finnish
-	South Ossetia	Güney Osetya	tr	Turkish
-	South Ossetia	Jižní Osetie	cs	Czech
-	South Ossetia	Južna Osetija	hr	Croatian
-	South Ossetia	Јужна Осетија	sr	Serbian
-	South Ossetia	南オセチア	ja	Japanese
-	South Ossetia	Osetia Południowa	pl	Polish
-	South Ossetia	Lõuna-Osseetia	et	Estonian
-	South Ossetia	Pietų Osetija	lt	Lithuanian
-	South Ossetia	Південна Осетія	uk	Ukrainian
-	South Ossetia	Sør-Ossetia	no	Norwegian
-	South Ossetia	Sør-Ossetia	no	Norwegian
-	South Ossetia	Südossetien	de	German
-	South Ossetia	Suðurossetia	fo	Faroese
-	South Ossetia	Sydossetien	da	Danish
-	South Ossetia	Sydossetien	sv	Swedish
-	South Ossetia	Ю́жная Осетия	ru	Russian
-	South Ossetia	தென் ஒசேத்தியா	ta	Tamil
 ss	South Sudan	Lõuna-Sudaan	et	Estonian
 ss	South Sudan	Republic of South Sudanதென் சூடான்	ta	Tamil
 ss	South Sudan	is-Sudan t'Isfel	mt	Maltese
@@ -12384,43 +12361,6 @@ to	Tonga	Tonga	gd	Scots Gaelic
 to	Tonga	Tonga	sl	Slovene
 to	Tonga	Tonga	es	Spanish
 to	Tonga	Tonga	tr	Turkish
-	Transnistria	德涅斯特河沿岸共和国	zh	Chinese
-	Transnistria	沿ドニエストル共和国	ja	Japanese
-	Transnistria	Naddniestrze	pl	Polish
-	Transnistria	Padniestrė	lt	Lithuanian
-	Transnistria	Piedņestra	lv	Latvian
-	Transnistria	Podněstří	cs	Czech
-	Transnistria	Приднестровье	ru	Russian
-	Transnistria	Приднестровская Молдавская Республика	ru	Russian
-	Transnistria	Придњестровска молдавска република	sr	Serbian
-	Transnistria	Придністровська Молдавська Республіка	uk	Ukrainian
-	Transnistria	Република Молдовеняскэ Нистрянэ		Moldovan Cyrillic
-	Transnistria	트란스니스트리아	ko	Korean
-	Transnistria	Trans-Dniester	en	English
-	Transnistria	Transdnistria	en	English
-	Transnistria	Transdniestria	en	English
-	Transnistria	Transdniestr	en	English
-	Transnistria	Trans-Dniestria	en	English
-	Transnistria	Transdniester	en	English
-	Transnistria	Transniestria	en	English
-	Transnistria	Transdnestr	en	English
-	Transnistria	Trans-Dnjestr	en	English
-	Transnistria	Trans-Dnjester	en	English
-	Transnistria	Transnistria	et	Estonian
-	Transnistria	טרנסניסטריה	he	Hebrew
-	Transnistria	הרפובליקה המולדבית הפרידנסטרובית	he	Hebrew
-	Transnistria	Transnístria	pt	Portuguese
-	Transnistria	Transdniestre	pt	Portuguese
-	Transnistria	Trans-Nistrië	nl	Dutch
-	Transnistria	Transdnestrië	nl	Dutch
-	Transnistria	Transdniestrië	nl	Dutch
-	Transnistria	Transdnjestrië	nl	Dutch
-	Transnistria	Transnistrien	de	German
-	Transnistria	Транзнистрия	bg	Bulgarian
-	Transnistria	Turansinisutaa	iu	Inuktitut
-	Transnistria	திரான்சுனிசுத்திரியா	ta	Tamil
-	Transnistria	Transnistria	fi	Finnish
-	Transnistria	Transnistria	it	Italian
 tt	Trinidad and Tobago	千里達 - 托巴哥	zh	Chinese
 tt	Trinidad and Tobago	트리니다드 토바고	ko	Korean
 tt	Trinidad and Tobago	トリニダード・トバゴ	ja	Japanese
@@ -12631,7 +12571,8 @@ tc	Turks and Caicos Islands	터크스 케이커스 제도	ko	Korean
 tc	Turks and Caicos Islands	Теркс і Кайкос	uk	Ukrainian
 tc	Turks and Caicos Islands	Terksas ir Kaikosas	lt	Lithuanian
 tc	Turks and Caicos Islands	Tērksas un Kaikosas salas	lv	Latvian
-tc	Turks and Caicos Islands	Turcas e Caicos or Turks e Caicos	pt	Portuguese
+tc	Turks and Caicos Islands	Turcas e Caicos	pt	Portuguese
+tc	Turks and Caicos Islands	Turks e Caicos	pt	Portuguese
 tc	Turks and Caicos Islands	Turk-och caicosöarna	sv	Swedish
 tc	Turks and Caicos Islands	Turks a Caicos	cs	Czech
 tc	Turks and Caicos Islands	Turks e Caicos	it	Italian
@@ -12788,7 +12729,8 @@ ae	United Arab Emirates	Emirati Arabi Uniti	it	Italian
 ae	United Arab Emirates	l-Emirati Għarab Magħquda	mt	Maltese
 ae	United Arab Emirates	Emiratos Árabes Unidos	pt	Portuguese
 ae	United Arab Emirates	Émirats arabes unis	fr	French
-ae	United Arab Emirates	Emiriah Arab Bersatu or Amiriah Arab Bersatu	ms	Malay
+ae	United Arab Emirates	Emiriah Arab Bersatu	ms	Malay
+ae	United Arab Emirates	Amiriah Arab Bersatu	ms	Malay
 ae	United Arab Emirates	Feriene Arabyske Emiraten	fy	Frisian
 ae	United Arab Emirates	Förenade Arabemiraten	sv	Swedish
 ae	United Arab Emirates	De Forenede Arabiske Emirater	da	Danish
@@ -12822,66 +12764,66 @@ ae	United Arab Emirates	Emiratet e Bashkuara Arabe	sq	Albanian
 ae	United Arab Emirates	ஐக்கிய அரபு எமிரேட்ஸ்	ta	Tamil
 ae	United Arab Emirates	Emiratos Árabes Unidos	es	Spanish
 ae	United Arab Emirates	Spojené arabské emiráty	sk	Slovak
-	United Kingdom (UK)	อังกฤษ	th	Thai
-	United Kingdom (UK)	Apvienotā Karaliste	lv	Latvian
-	United Kingdom (UK)	Birleşik Krallık	tr	Turkish
-	United Kingdom (UK)	Böyük Britaniya	az	Azerbaijani
-	United Kingdom (UK)	Bretland	is	Icelandic
-	United Kingdom (UK)	בריטניה	he	Hebrew
-	United Kingdom (UK)	Britanniarum Regnum	la	Latin
-	United Kingdom (UK)	Egyesült Királyság	hu	Hungarian
-	United Kingdom (UK)	එක්සත් රාජධානිය	si	Sinhala
-	United Kingdom (UK)	გაერთიანებული სამეფო	ka	Georgian
-	United Kingdom (UK)	Grut-Brittanje	fy	Frisian
-	United Kingdom (UK)	イギリス	ja	Japanese
-	United Kingdom (UK)	英国	ja	Japanese
-	United Kingdom (UK)	Jungtinė Karalystė	lt	Lithuanian
-	United Kingdom (UK)	Kerajaan Britania Raya 	id	Indonesian
-	United Kingdom (UK)	Inggris	id	Indonesian
-	United Kingdom (UK)	Inglatera	tl	Tagalog
-	United Kingdom (UK)	Ηνωμένο Βασίλειο	el	Greek
-	United Kingdom (UK)	Միացյալ Թագավորություն	hy	Armenian
-	United Kingdom (UK)	Обединеното Кралство	bg	Bulgarian
-	United Kingdom (UK)	Великобритания	bg	Bulgarian
-	United Kingdom (UK)	Regatul Unit	ro	Romanian
-	United Kingdom (UK)	Regne Unit	ca	Catalan
-	United Kingdom (UK)	Regno Unito	it	Italian
-	United Kingdom (UK)	Reino Unido	pt	Portuguese
-	United Kingdom (UK)	ir-Renju Unit	mt	Maltese
-	United Kingdom (UK)	an Ríocht Aontaithe	ga	Irish
-	United Kingdom (UK)	an Rìoghachd Aonaichte	gd	Scots Gaelic
-	United Kingdom (UK)	Roéyôme-uni		Picard
-	United Kingdom (UK)	Royaume-Uni	fr	French
-	United Kingdom (UK)	สหราชอาณาจักร	th	Thai
-	United Kingdom (UK)	Spojené království	cs	Czech
-	United Kingdom (UK)	Spojené kráľovstvo	sk	Slovak
-	United Kingdom (UK)	Сполучене Королівство	uk	Ukrainian
-	United Kingdom (UK)	Велика Британія	uk	Ukrainian
-	United Kingdom (UK)	Stórabretland	fo	Faroese
-	United Kingdom (UK)	Storbritannia	no	Norwegian
-	United Kingdom (UK)	Storbritannien	da	Danish
-	United Kingdom (UK)	Suurbritannia	et	Estonian
-	United Kingdom (UK)	Ühendkuningriik	et	Estonian
-	United Kingdom (UK)	Уједињено Краљевство	sr	Serbian
-	United Kingdom (UK)	Unitit Kinrick		Lallans
-	United Kingdom (UK)	Unitit Kinrick		Scots
-	United Kingdom (UK)	Unititi Kingitum	iu	Inuktitut
-	United Kingdom (UK)	Великобритания	ru	Russian
-	United Kingdom (UK)	Vereinigtes Königreich	de	German
-	United Kingdom (UK)	Verenigd Koninkrijk	nl	Dutch
-	United Kingdom (UK)	Verenigde Koninkryk	af	Afrikaans
-	United Kingdom (UK)	Wielka Brytania	pl	Polish
-	United Kingdom (UK)	영국	ko	Korean
-	United Kingdom (UK)	英國	ko	Korean
-	United Kingdom (UK)	연합왕국	ko	Korean
-	United Kingdom (UK)	Yhdistynyt kuningaskunta	fi	Finnish
-	United Kingdom (UK)	英國	zh	Chinese
-	United Kingdom (UK)	联合王国	zh	Chinese
-	United Kingdom (UK)	Y Deyrnas Unedig	cy	Welsh
-	United Kingdom (UK)	Britania e Madhe	sq	Albanian
-	United Kingdom (UK)	இங்கிலாந்து	ta	Tamil
-	United Kingdom (UK)	Reino Unido	es	Spanish
-	United Kingdom (UK)	Storbritannien	sv	Swedish
+gb	United Kingdom (UK)	อังกฤษ	th	Thai
+gb	United Kingdom (UK)	Apvienotā Karaliste	lv	Latvian
+gb	United Kingdom (UK)	Birleşik Krallık	tr	Turkish
+gb	United Kingdom (UK)	Böyük Britaniya	az	Azerbaijani
+gb	United Kingdom (UK)	Bretland	is	Icelandic
+gb	United Kingdom (UK)	בריטניה	he	Hebrew
+gb	United Kingdom (UK)	Britanniarum Regnum	la	Latin
+gb	United Kingdom (UK)	Egyesült Királyság	hu	Hungarian
+gb	United Kingdom (UK)	එක්සත් රාජධානිය	si	Sinhala
+gb	United Kingdom (UK)	გაერთიანებული სამეფო	ka	Georgian
+gb	United Kingdom (UK)	Grut-Brittanje	fy	Frisian
+gb	United Kingdom (UK)	イギリス	ja	Japanese
+gb	United Kingdom (UK)	英国	ja	Japanese
+gb	United Kingdom (UK)	Jungtinė Karalystė	lt	Lithuanian
+gb	United Kingdom (UK)	Kerajaan Britania Raya 	id	Indonesian
+gb	United Kingdom (UK)	Inggris	id	Indonesian
+gb	United Kingdom (UK)	Inglatera	tl	Tagalog
+gb	United Kingdom (UK)	Ηνωμένο Βασίλειο	el	Greek
+gb	United Kingdom (UK)	Միացյալ Թագավորություն	hy	Armenian
+gb	United Kingdom (UK)	Обединеното Кралство	bg	Bulgarian
+gb	United Kingdom (UK)	Великобритания	bg	Bulgarian
+gb	United Kingdom (UK)	Regatul Unit	ro	Romanian
+gb	United Kingdom (UK)	Regne Unit	ca	Catalan
+gb	United Kingdom (UK)	Regno Unito	it	Italian
+gb	United Kingdom (UK)	Reino Unido	pt	Portuguese
+gb	United Kingdom (UK)	ir-Renju Unit	mt	Maltese
+gb	United Kingdom (UK)	an Ríocht Aontaithe	ga	Irish
+gb	United Kingdom (UK)	an Rìoghachd Aonaichte	gd	Scots Gaelic
+gb	United Kingdom (UK)	Roéyôme-uni		Picard
+gb	United Kingdom (UK)	Royaume-Uni	fr	French
+gb	United Kingdom (UK)	สหราชอาณาจักร	th	Thai
+gb	United Kingdom (UK)	Spojené království	cs	Czech
+gb	United Kingdom (UK)	Spojené kráľovstvo	sk	Slovak
+gb	United Kingdom (UK)	Сполучене Королівство	uk	Ukrainian
+gb	United Kingdom (UK)	Велика Британія	uk	Ukrainian
+gb	United Kingdom (UK)	Stórabretland	fo	Faroese
+gb	United Kingdom (UK)	Storbritannia	no	Norwegian
+gb	United Kingdom (UK)	Storbritannien	da	Danish
+gb	United Kingdom (UK)	Suurbritannia	et	Estonian
+gb	United Kingdom (UK)	Ühendkuningriik	et	Estonian
+gb	United Kingdom (UK)	Уједињено Краљевство	sr	Serbian
+gb	United Kingdom (UK)	Unitit Kinrick		Lallans
+gb	United Kingdom (UK)	Unitit Kinrick		Scots
+gb	United Kingdom (UK)	Unititi Kingitum	iu	Inuktitut
+gb	United Kingdom (UK)	Великобритания	ru	Russian
+gb	United Kingdom (UK)	Vereinigtes Königreich	de	German
+gb	United Kingdom (UK)	Verenigd Koninkrijk	nl	Dutch
+gb	United Kingdom (UK)	Verenigde Koninkryk	af	Afrikaans
+gb	United Kingdom (UK)	Wielka Brytania	pl	Polish
+gb	United Kingdom (UK)	영국	ko	Korean
+gb	United Kingdom (UK)	英國	ko	Korean
+gb	United Kingdom (UK)	연합왕국	ko	Korean
+gb	United Kingdom (UK)	Yhdistynyt kuningaskunta	fi	Finnish
+gb	United Kingdom (UK)	英國	zh	Chinese
+gb	United Kingdom (UK)	联合王国	zh	Chinese
+gb	United Kingdom (UK)	Y Deyrnas Unedig	cy	Welsh
+gb	United Kingdom (UK)	Britania e Madhe	sq	Albanian
+gb	United Kingdom (UK)	இங்கிலாந்து	ta	Tamil
+gb	United Kingdom (UK)	Reino Unido	es	Spanish
+gb	United Kingdom (UK)	Storbritannien	sv	Swedish
 gb	United Kingdom of Great Britain and Northern Ireland	Böyük Britaniya və Şimali İrlandiya Birləşmiş Krallığı	az	Azerbaijani
 gb	United Kingdom of Great Britain and Northern Ireland	Britainia Handiko eta Ipar Irlandako Erresuma Batua	eu	Basque
 gb	United Kingdom of Great Britain and Northern Ireland	Büyük Britanya ve Kuzey İrlanda Birleşik Krallığı	tr	Turkish
@@ -13072,12 +13014,12 @@ uy	Uruguay	Uruguay	ro	Romanian
 uy	Uruguay	Uruguay	sk	Slovak
 uy	Uruguay	Uruguay	es	Spanish
 uy	Uruguay	Uruguay	tr	Turkish
-	Urundi	Ouroundi	fr	French
-	Urundi	Urundi	de	German
-	Urundi	புருண்டி	ta	Tamil
-	Urundi	Urundi	it	Italian
-	Urundi	Urundi	pt	Portuguese
-	Urundi	Urundi	es	Spanish
+bi	Urundi	Ouroundi	fr	French
+bi	Urundi	Urundi	de	German
+bi	Urundi	புருண்டி	ta	Tamil
+bi	Urundi	Urundi	it	Italian
+bi	Urundi	Urundi	pt	Portuguese
+bi	Urundi	Urundi	es	Spanish
 uz	Uzbekistan	Oesbekistan	af	Afrikaans
 uz	Uzbekistan	Oezbekistan	nl	Dutch
 uz	Uzbekistan	Ouzbékistan	fr	French
@@ -13193,58 +13135,60 @@ vu	Vanuatu	Vanuatu	sl	Slovene
 vu	Vanuatu	Vanuatu	es	Spanish
 vu	Vanuatu	Vanuatu	sw	Swahili
 vu	Vanuatu	Vanuatu	cy	Welsh
-	Vatican City	Cathair na Bhaticain	gd	Scots Gaelic
-	Vatican City	バチカン市国	ja	Japanese
-	Vatican City	ヴァティカン市国	ja	Japanese
-	Vatican City	바티칸 시국	ko	Korean
-	Vatican City	a' Bhàtacan	gd	Scots Gaelic
-	Vatican City	Cidade do Vaticano	pt	Portuguese
-	Vatican City	Civitas Vaticana or Vaticanum	la	Latin
-	Vatican City	Dinas y Fatican or Fatican	cy	Welsh
-	Vatican City	梵蒂岡	zh	Chinese
-	Vatican City	Fatikaanstêd	fy	Frisian
-	Vatican City	il-Belt tal - Vatikan	mt	Maltese
-	Vatican City	קרית הוותיקן	he	Hebrew
-	Vatican City	Kota Vatikan	id	Indonesian
-	Vatican City	นครรัฐวาติกัน	th	Thai
-	Vatican City	Patikan Iglurjuat	iu	Inuktitut
-	Vatican City	Πόλη του Βατικανού	el	Greek
-	Vatican City	Stát Chathair na Vatacáine	ga	Irish
-	Vatican City	Vaticaanstad	nl	Dutch
-	Vatican City	Vatican	fr	French
-	Vatican City	Vaticano	it	Italian
-	Vatican City	Vatikaanivaltio	fi	Finnish
-	Vatican City	Vatikaanstad	af	Afrikaans
-	Vatican City	Vatikan	az	Azerbaijani
-	Vatican City	Ватикан	ru	Russian
-	Vatican City	װאַטיקאַן	yi	Yiddish
-	Vatican City	Vatikán	cs	Czech
-	Vatican City	Ватикана	bg	Bulgarian
-	Vatican City	Vatikanas	lt	Lithuanian
-	Vatican City	Vatikanið	fo	Faroese
-	Vatican City	Vatikano	eo	Esperanto
-	Vatican City	Vatikanoa	eu	Basque
-	Vatican City	Vatikāns	lv	Latvian
-	Vatican City	Vatikanska mestna država	sl	Slovene
-	Vatican City	Vatikanstadt	de	German
-	Vatican City	Vatikanstaten	da	Danish
-	Vatican City	වතිකානු නගරය	si	Sinhala
-	Vatican City	Ватикан	uk	Ukrainian
-	Vatican City	Watykan	pl	Polish
-	Vatican City	வாடிகன் நகரம்	ta	Tamil
-	Vatican City	Vatican	ro	Romanian
-	Vatican City	Vaticano	pt	Portuguese
-	Vatican City	Vatikan	et	Estonian
-	Vatican City	Ватикан	sr	Serbian
-	Vatican City	Vatikán	hu	Hungarian
-	Vatican City	Vatikanið	is	Icelandic
-	Vatican City	Vatikanstaten	sv	Swedish
-	Vatican City	Vaticano	es	Spanish
-	Vatican City	Vatikan	id	Indonesian
-	Vatican City	Vatikán	sk	Slovak
-	Vatican City	Vatikan	sl	Slovene
-	Vatican City	Vatikan	tr	Turkish
-	Vatican City	Vatikan	vro	Võro
+va	Vatican City	Cathair na Bhaticain	gd	Scots Gaelic
+va	Vatican City	バチカン市国	ja	Japanese
+va	Vatican City	ヴァティカン市国	ja	Japanese
+va	Vatican City	바티칸 시국	ko	Korean
+va	Vatican City	a' Bhàtacan	gd	Scots Gaelic
+va	Vatican City	Cidade do Vaticano	pt	Portuguese
+va	Vatican City	Civitas Vaticana	la	Latin
+va	Vatican City	Vaticanum	la	Latin
+va	Vatican City	Dinas y Fatican	cy	Welsh
+va	Vatican City	Fatican	cy	Welsh
+va	Vatican City	梵蒂岡	zh	Chinese
+va	Vatican City	Fatikaanstêd	fy	Frisian
+va	Vatican City	il-Belt tal - Vatikan	mt	Maltese
+va	Vatican City	קרית הוותיקן	he	Hebrew
+va	Vatican City	Kota Vatikan	id	Indonesian
+va	Vatican City	นครรัฐวาติกัน	th	Thai
+va	Vatican City	Patikan Iglurjuat	iu	Inuktitut
+va	Vatican City	Πόλη του Βατικανού	el	Greek
+va	Vatican City	Stát Chathair na Vatacáine	ga	Irish
+va	Vatican City	Vaticaanstad	nl	Dutch
+va	Vatican City	Vatican	fr	French
+va	Vatican City	Vaticano	it	Italian
+va	Vatican City	Vatikaanivaltio	fi	Finnish
+va	Vatican City	Vatikaanstad	af	Afrikaans
+va	Vatican City	Vatikan	az	Azerbaijani
+va	Vatican City	Ватикан	ru	Russian
+va	Vatican City	װאַטיקאַן	yi	Yiddish
+va	Vatican City	Vatikán	cs	Czech
+va	Vatican City	Ватикана	bg	Bulgarian
+va	Vatican City	Vatikanas	lt	Lithuanian
+va	Vatican City	Vatikanið	fo	Faroese
+va	Vatican City	Vatikano	eo	Esperanto
+va	Vatican City	Vatikanoa	eu	Basque
+va	Vatican City	Vatikāns	lv	Latvian
+va	Vatican City	Vatikanska mestna država	sl	Slovene
+va	Vatican City	Vatikanstadt	de	German
+va	Vatican City	Vatikanstaten	da	Danish
+va	Vatican City	වතිකානු නගරය	si	Sinhala
+va	Vatican City	Ватикан	uk	Ukrainian
+va	Vatican City	Watykan	pl	Polish
+va	Vatican City	வாடிகன் நகரம்	ta	Tamil
+va	Vatican City	Vatican	ro	Romanian
+va	Vatican City	Vaticano	pt	Portuguese
+va	Vatican City	Vatikan	et	Estonian
+va	Vatican City	Ватикан	sr	Serbian
+va	Vatican City	Vatikán	hu	Hungarian
+va	Vatican City	Vatikanið	is	Icelandic
+va	Vatican City	Vatikanstaten	sv	Swedish
+va	Vatican City	Vaticano	es	Spanish
+va	Vatican City	Vatikan	id	Indonesian
+va	Vatican City	Vatikán	sk	Slovak
+va	Vatican City	Vatikan	sl	Slovene
+va	Vatican City	Vatikan	tr	Turkish
+va	Vatican City	Vatikan	vro	Võro
 ve	Venezuela	베네수엘라	ko	Korean
 ve	Venezuela	ベネズエラ	ja	Japanese
 ve	Venezuela	a' Bheiniseala	gd	Scots Gaelic
@@ -13336,54 +13280,54 @@ vn	Vietnam	Vietnam	sl	Slovene
 vn	Vietnam	Vietnam	es	Spanish
 vn	Vietnam	Vietnam	sv	Swedish
 vn	Vietnam	Vietnam	tr	Turkish
-	Wales	an Bhreatain Bheag	ga	Irish
-	Wales	Cambria	la	Latin
-	Wales	a' Chuimrigh	gd	Scots Gaelic
-	Wales	Cymru	cy	Welsh
-	Wales	Gales	es	Spanish
-	Wales	Galler	tr	Turkish
-	Wales	Galles	it	Italian
-	Wales	Kembra	kw	Cornish
-	Wales	Kimrio	eo	Esperanto
-	Wales	Ουαλία	el	Greek
-	Wales	País de Gales	pt	Portuguese
-	Wales	País de Gaŀles	ca	Catalan
-	Wales	Pays de Galles	fr	French
-	Wales	Ţara Galilor	ro	Romanian
-	Wales	Uaalusu	iu	Inuktitut
-	Wales	Uells	sq	Albanian
-	Wales	Уелс	bg	Bulgarian
-	Wales	Уельс	uk	Ukrainian
-	Wales	Уэльс	ru	Russian
-	Wales	Велс	sr	Serbian
-	Wales	Velsa	lv	Latvian
-	Wales	Velsas	lt	Lithuanian
-	Wales	װײלז	yi	Yiddish
-	Wales	Wales	cs	Czech
-	Wales	Valisa	rm	Romansh
-	Wales	Wales	rm	Romansh
-	Wales	Walia	pl	Polish
-	Wales	Wallis	af	Afrikaans
-	Wales	ווילס	he	Hebrew
-	Wales	威爾斯	zh	Chinese
-	Wales	웨일스	ko	Korean
-	Wales	เวลส์	th	Thai
-	Wales	ウェールズ	ja	Japanese
-	Wales	வேல்ஸ்	ta	Tamil
-	Wales	Wales	da	Danish
-	Wales	Wales	nl	Dutch
-	Wales	Wales	et	Estonian
-	Wales	Wales	fo	Faroese
-	Wales	Wales	fi	Finnish
-	Wales	Wales	de	German
-	Wales	Wales	hu	Hungarian
-	Wales	Wales	is	Icelandic
-	Wales	Wales	id	Indonesian
-	Wales	Wales	mt	Maltese
-	Wales	Wales	rm	Romansh
-	Wales	Wales	sk	Slovak
-	Wales	Wales	sl	Slovene
-	Wales	Wales	sv	Swedish
+gb	Wales	an Bhreatain Bheag	ga	Irish
+gb	Wales	Cambria	la	Latin
+gb	Wales	a' Chuimrigh	gd	Scots Gaelic
+gb	Wales	Cymru	cy	Welsh
+gb	Wales	Gales	es	Spanish
+gb	Wales	Galler	tr	Turkish
+gb	Wales	Galles	it	Italian
+gb	Wales	Kembra	kw	Cornish
+gb	Wales	Kimrio	eo	Esperanto
+gb	Wales	Ουαλία	el	Greek
+gb	Wales	País de Gales	pt	Portuguese
+gb	Wales	País de Gaŀles	ca	Catalan
+gb	Wales	Pays de Galles	fr	French
+gb	Wales	Ţara Galilor	ro	Romanian
+gb	Wales	Uaalusu	iu	Inuktitut
+gb	Wales	Uells	sq	Albanian
+gb	Wales	Уелс	bg	Bulgarian
+gb	Wales	Уельс	uk	Ukrainian
+gb	Wales	Уэльс	ru	Russian
+gb	Wales	Велс	sr	Serbian
+gb	Wales	Velsa	lv	Latvian
+gb	Wales	Velsas	lt	Lithuanian
+gb	Wales	װײלז	yi	Yiddish
+gb	Wales	Wales	cs	Czech
+gb	Wales	Valisa	rm	Romansh
+gb	Wales	Wales	rm	Romansh
+gb	Wales	Walia	pl	Polish
+gb	Wales	Wallis	af	Afrikaans
+gb	Wales	ווילס	he	Hebrew
+gb	Wales	威爾斯	zh	Chinese
+gb	Wales	웨일스	ko	Korean
+gb	Wales	เวลส์	th	Thai
+gb	Wales	ウェールズ	ja	Japanese
+gb	Wales	வேல்ஸ்	ta	Tamil
+gb	Wales	Wales	da	Danish
+gb	Wales	Wales	nl	Dutch
+gb	Wales	Wales	et	Estonian
+gb	Wales	Wales	fo	Faroese
+gb	Wales	Wales	fi	Finnish
+gb	Wales	Wales	de	German
+gb	Wales	Wales	hu	Hungarian
+gb	Wales	Wales	is	Icelandic
+gb	Wales	Wales	id	Indonesian
+gb	Wales	Wales	mt	Maltese
+gb	Wales	Wales	rm	Romansh
+gb	Wales	Wales	sk	Slovak
+gb	Wales	Wales	sl	Slovene
+gb	Wales	Wales	sv	Swedish
 wf	Wallis and Futuna	Uallas agus Futuna	gd	Scots Gaelic
 wf	Wallis and Futuna	Uallisulu Putuna	iu	Inuktitut
 wf	Wallis and Futuna	Валис и Футуна	sr	Serbian
@@ -13553,7 +13497,8 @@ zw	Zimbabwe	Simbabvi	fo	Faroese
 zw	Zimbabwe	Simbabwe	de	German
 zw	Zimbabwe	ซิมบับเว	th	Thai
 zw	Zimbabwe	Siombabue	gd	Scots Gaelic
-zw	Zimbabwe	Zimbabue Zimbábue or Zimbabué	pt	Portuguese
+zw	Zimbabwe	Zimbabue Zimbábue	pt	Portuguese
+zw	Zimbabwe	Zimbabue Zimbabué	pt	Portuguese
 zw	Zimbabwe	Zimbabve	hr	Croatian
 zw	Zimbabwe	Зимбабве	bg	Bulgarian
 zw	Zimbabwe	Зімбабве	uk	Ukrainian
@@ -13600,8 +13545,8 @@ li	Liechtenstein	Liechtenstein	tl	Tagalog
 lt	Lithuania	Litwaniya	tl	Tagalog
 lu	Luxembourg	Luksemburgo	tl	Tagalog
 lu	Luxembourg	Luxembourg	tl	Tagalog
-	Macau	Makáw	tl	Tagalog
-	Macau	Macao	tl	Tagalog
+mo	Macau	Makáw	tl	Tagalog
+mo	Macau	Macao	tl	Tagalog
 mk	Macedonia	Masedonya	tl	Tagalog
 mg	Madagascar	Madagaskar	tl	Tagalog
 mw	Malawi	Malawi	tl	Tagalog
@@ -13659,13 +13604,11 @@ es	Spain	Espanya	tl	Tagalog
 tw	Taiwan	Taywan	tl	Tagalog
 tt	Trinidad and Tobago	Trinidad at Tobago	tl	Tagalog
 tr	Turkey	Turkiya	tl	Tagalog
-ae	United Arab Emirates	Mga Nagkakaisang Emiratong Arabo	tl	Tagalog
-	United Kingdom (UK)	Inglatera	tl	Tagalog
+ae	United Arab Emirates	Mga Nagkakaisang Emiratong Arabo	tl	TagalogniUnited Kingdom (UK)	Inglatera	tl	Tagalog
 gb	United Kingdom of Great Britain and Northern Ireland	Nagkakaisang Kaharian ng Gran Britanya at Hilagang Irlanda	tl	Tagalog
 vi	United States Virgin Islands	Kapuluang Birhen ng Estados Unidos	tl	Tagalog
 us	USA	the US	en	English
-us	USA	United States	en	English
-	United Kingdom (UK)	the UK	en	English
+us	USA	United States	en	EnglishniUnited Kingdom (UK)	the UK	en	English
 us	USA	EEUU	en	Spanish
 af	Afghanistan	Afghanistan	en	English
 ax	Åland Islands	Åland Islands	en	English
@@ -13696,17 +13639,17 @@ bo	Bolivia	Bolivia	en	English
 ba	Bosnia and Herzegovina	Bosnia and Herzegovina	en	English
 bw	Botswana	Botswana	en	English
 br	Brazil	Brazil	en	English
-	British Honduras	British Honduras	en	English
-	British Virgin Islands	British Virgin Islands	en	English
+bz	British Honduras	British Honduras	en	English
+vg	British Virgin Islands	British Virgin Islands	en	English
 bn	Brunei	Brunei	en	English
 bg	Bulgaria	Bulgaria	en	English
 bf	Burkina Faso	Burkina Faso	en	English
-	Burma	Burma	en	English
+mm	Burma	Burma	en	English
 bi	Burundi	Burundi	en	English
 kh	Cambodia	Cambodia	en	English
 cm	Cameroon	Cameroon	en	English
 ca	Canada	Canada	en	English
-	Cape Verde	Cape Verde	en	English
+cv	Cape Verde	Cape Verde	en	English
 ky	Cayman Islands	Cayman Islands	en	English
 cf	Central African Republic	Central African Republic	en	English
 td	Chad	Chad	en	English
@@ -13724,16 +13667,16 @@ hr	Croatia	Croatia	en	English
 cu	Cuba	Cuba	en	English
 cy	Cyprus	Cyprus	en	English
 cz	Czech Republic	Czech Republic	en	English
-	Dahomey	Dahomey	en	English
+bj	Dahomey	Dahomey	en	English
 dk	Denmark	Denmark	en	English
 dj	Djibouti	Djibouti	en	English
 dm	Dominica	Dominica	en	English
 do	Dominican Republic	Dominican Republic	en	English
-	East Timor	East Timor	en	English
+tl	East Timor	East Timor	en	English
 ec	Ecuador	Ecuador	en	English
 eg	Egypt	Egypt	en	English
 sv	El Salvador	El Salvador	en	English
-	England	England	en	English
+gb	England	England	en	English
 gq	Equatorial Guinea	Equatorial Guinea	en	English
 er	Eritrea	Eritrea	en	English
 ee	Estonia	Estonia	en	English
@@ -13745,7 +13688,7 @@ fi	Finland	Finland	en	English
 fr	France	France	en	English
 gf	French Guiana	French Guiana	en	English
 pf	French Polynesia	French Polynesia	en	English
-	French Southern and Antarctic Lands	French Southern and Antarctic Lands	en	English
+tf	French Southern and Antarctic Landstf	French Southern and Antarctic Lands	en	English
 ga	Gabon	Gabon	en	English
 ge	Georgia	Georgia	en	English
 de	Germany	Germany	en	English
@@ -13780,20 +13723,19 @@ jo	Jordan	Jordan	en	English
 kz	Kazakhstan	Kazakhstan	en	English
 ke	Kenya	Kenya	en	English
 ki	Kiribati	Kiribati	en	English
-	Korea	Korea	en	English
+kr	Korea	Korea	en	English
 kw	Kuwait	Kuwait	en	English
 kg	Kyrgyzstan	Kyrgyzstan	en	English
-	Laos	Laos	en	English
+la	Laos	Laos	en	English
 lv	Latvia	Latvia	en	English
 lb	Lebanon	Lebanon	en	English
 ls	Lesotho	Lesotho	en	English
 lr	Liberia	Liberia	en	English
 ly	Libya	Libya	en	English
 li	Liechtenstein	Liechtenstein	en	English
-lt	Lithuania	Lithuania	en	English
-	Lower Austria	Lower Austria	en	English
+lt	Lithuania	Lithuania	en	EnglishniLower Austria	Lower Austria	en	English
 lu	Luxembourg	Luxembourg	en	English
-	Macau	Macau	en	English
+mo	Macau	Macau	en	English
 mk	Macedonia	Macedonia	en	English
 mg	Madagascar	Madagascar	en	English
 mw	Malawi	Malawi	en	English
@@ -13819,8 +13761,7 @@ mm	Myanmar	Myanmar	en	English
 na	Namibia	Namibia	en	English
 nr	Nauru	Nauru	en	English
 np	Nepal	Nepal	en	English
-nl	Netherlands	Netherlands	en	English
-	Netherlands Antilles	Netherlands Antilles	en	English
+nl	Netherlands	Netherlands	en	EnglishniNetherlands Antilles	Netherlands Antilles	en	English
 nc	New Caledonia	New Caledonia	en	English
 nz	New Zealand	New Zealand	en	English
 ni	Nicaragua	Nicaragua	en	English
@@ -13846,7 +13787,7 @@ pl	Poland	Poland	en	English
 pt	Portugal	Portugal	en	English
 pr	Puerto Rico	Puerto Rico	en	English
 qa	Qatar	Qatar	en	English
-	Reunion	Reunion	en	English
+re	Reunion	Reunion	en	English
 ro	Romania	Romania	en	English
 ru	Russia	Russia	en	English
 rw	Rwanda	Rwanda	en	English
@@ -13859,7 +13800,7 @@ ws	Samoa	Samoa	en	English
 sm	San Marino	San Marino	en	English
 st	São Tomé and Príncipe	São Tomé and Príncipe	en	English
 sa	Saudi Arabia	Saudi Arabia	en	English
-	Scotland	Scotland	en	English
+gb	Scotland	Scotland	en	English
 sn	Senegal	Senegal	en	English
 rs	Serbia	Serbia	en	English
 sc	Seychelles	Seychelles	en	English
@@ -13871,8 +13812,7 @@ sb	Solomon Islands	Solomon Islands	en	English
 so	Somalia	Somalia	en	English
 za	South Africa	South Africa	en	English
 gs	South Georgia and the South Sandwich Islands	South Georgia and the South Sandwich Islands	en	English
-kr	South Korea	South Korea	en	English
-	South Ossetia	South Ossetia	en	English
+kr	South Korea	South Korea	en	EnglishniSouth Ossetia	South Ossetia	en	English
 ss	South Sudan	South Sudan	en	English
 es	Spain	Spain	en	English
 lk	Sri Lanka	Sri Lanka	en	English
@@ -13890,7 +13830,6 @@ gm	Gambia	Gambia	en	English
 tg	Togo	Togo	en	English
 tk	Tokelau Islands	Tokelau Islands	en	English
 to	Tonga	Tonga	en	English
-	Transnistria	Transnistria	en	English
 tt	Trinidad and Tobago	Trinidad and Tobago	en	English
 tn	Tunisia	Tunisia	en	English
 tr	Turkey	Turkey	en	English
@@ -13899,19 +13838,18 @@ tc	Turks and Caicos Islands	Turks and Caicos Islands	en	English
 tv	Tuvalu	Tuvalu	en	English
 ug	Uganda	Uganda	en	English
 ua	Ukraine	Ukraine	en	English
-ae	United Arab Emirates	United Arab Emirates	en	English
-	United Kingdom (UK)	United Kingdom (UK)	en	English
+ae	United Arab Emirates	United Arab Emirates	en	EnglishniUnited Kingdom (UK)	United Kingdom (UK)	en	English
 gb	United Kingdom of Great Britain and Northern Ireland	United Kingdom of Great Britain and Northern Ireland	en	English
 us	USA	USA	en	English
 vi	United States Virgin Islands	United States Virgin Islands	en	English
 uy	Uruguay	Uruguay	en	English
-	Urundi	Urundi	en	English
+bi	Urundi	Urundi	en	English
 uz	Uzbekistan	Uzbekistan	en	English
 vu	Vanuatu	Vanuatu	en	English
-	Vatican City	Vatican City	en	English
+va	Vatican City	Vatican City	en	English
 ve	Venezuela	Venezuela	en	English
 vn	Vietnam	Vietnam	en	English
-	Wales	Wales	en	English
+gb	Wales	Wales	en	English
 wf	Wallis and Futuna	Wallis and Futuna	en	English
 eh	Western Sahara	Western Sahara	en	English
 ye	Yemen	Yemen	en	English
