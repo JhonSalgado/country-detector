@@ -74,6 +74,21 @@ func TestDetectFromTextChile(t *testing.T) {
 		Code:      "cl",
 		Latitude:  "-35.675147",
 		Longitude: "-71.542969",
+		Commune:   locations.Place{Name: "santiago", Latitude: "-33.4489", Longitude: "-70.6693"},
+	}
+	got, found := detectorChile.DetectFromText("estudiando en santiago, chile")
+	if !found {
+		t.Fatalf("Expected to find %s. Got: nothing found", want.Commune.Name)
+	}
+	comparePlacesInfo(t, want, got)
+}
+
+func TestDetectFromTextChileCommuneOnly(t *testing.T) {
+	want := PlaceInfo{
+		Name:      "chile",
+		Code:      "cl",
+		Latitude:  "-35.675147",
+		Longitude: "-71.542969",
 		Commune:   locations.Place{Name: "temuco", Latitude: "-38.7359", Longitude: "-72.5904"},
 	}
 	got, found := detectorChile.DetectFromText("TEMBLOR EN TEMUCO!!")

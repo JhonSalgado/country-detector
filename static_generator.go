@@ -7,8 +7,6 @@ import (
 	"os"
 	"regexp"
 	"strings"
-
-	"github.com/JhonSalgado/text-processor/processor"
 )
 
 type Codes map[string]int
@@ -18,70 +16,70 @@ var (
 	destinationFolder = "./detector/locations/"
 )
 
-func buildTranslations(filename string) map[string]Codes {
-	// get processor
-	filter := processor.Filter{
-		OnlyCustom: false,
-	}
-	texProcessor, _ := processor.GetTextProcessorWithStopWordsFilter(filter)
+// func buildTranslations(filename string) map[string]Codes {
+// 	// get processor
+// 	filter := processor.Filter{
+// 		OnlyCustom: false,
+// 	}
+// 	texProcessor, _ := processor.GetTextProcessorWithStopWordsFilter(filter)
 
-	// create map
-	translationsMap := make(map[string]Codes)
+// 	// create map
+// 	translationsMap := make(map[string]Codes)
 
-	// open origin file
-	originFile, err := os.Open(originFolder + filename)
-	if err != nil {
-		log.Fatal(err)
-	}
-	fileScanner := bufio.NewScanner(originFile)
-	defer originFile.Close()
+// 	// open origin file
+// 	originFile, err := os.Open(originFolder + filename)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	fileScanner := bufio.NewScanner(originFile)
+// 	defer originFile.Close()
 
-	for fileScanner.Scan() {
-		line := fileScanner.Text()
-		transaltionInfo := strings.Split(line, "\t")
-		keys := texProcessor.GetWordsSet(transaltionInfo[2])
-		nKeys := len(keys)
-		code := transaltionInfo[0]
-		for _, key := range keys {
-			codes, keyExists := translationsMap[key]
-			if keyExists {
-				n, codeExists := codes[code]
-				if !codeExists || nKeys < n {
-					codes[code] = nKeys
-				}
-			} else {
-				translationsMap[key] = Codes{code: nKeys}
-			}
-		}
-	}
-	return translationsMap
-}
+// 	for fileScanner.Scan() {
+// 		line := fileScanner.Text()
+// 		transaltionInfo := strings.Split(line, "\t")
+// 		keys := texProcessor.GetWordsSet(transaltionInfo[2])
+// 		nKeys := len(keys)
+// 		code := transaltionInfo[0]
+// 		for _, key := range keys {
+// 			codes, keyExists := translationsMap[key]
+// 			if keyExists {
+// 				n, codeExists := codes[code]
+// 				if !codeExists || nKeys < n {
+// 					codes[code] = nKeys
+// 				}
+// 			} else {
+// 				translationsMap[key] = Codes{code: nKeys}
+// 			}
+// 		}
+// 	}
+// 	return translationsMap
+// }
 
-func writeHashedTranslations(filename string) {
-	translationsMap := buildTranslations(filename)
+// func writeHashedTranslations(filename string) {
+// 	translationsMap := buildTranslations(filename)
 
-	// create and open destination file
-	destinationFileName := strings.Replace(filename, "txt", "go", 1)
-	destinationFile, err := os.Create(destinationFolder + "hashed_" + destinationFileName)
-	if err != nil {
-		log.Fatal(err)
-	}
-	w := bufio.NewWriter(destinationFile)
-	defer destinationFile.Close()
+// 	// create and open destination file
+// 	destinationFileName := strings.Replace(filename, "txt", "go", 1)
+// 	destinationFile, err := os.Create(destinationFolder + "hashed_" + destinationFileName)
+// 	if err != nil {
+// 		log.Fatal(err)
+// 	}
+// 	w := bufio.NewWriter(destinationFile)
+// 	defer destinationFile.Close()
 
-	// start to write
-	w.WriteString("package locations\n\n")
-	w.WriteString("var HashedTranslations map[string]Codes = map[string]Codes{\n")
-	for key, codes := range translationsMap {
-		w.WriteString(fmt.Sprintf("\t\"%s\": {", key))
-		for code, n := range codes {
-			w.WriteString(fmt.Sprintf("\"%s\": %d, ", code, n))
-		}
-		w.WriteString("},\n")
-	}
-	w.WriteString("}\n")
-	w.Flush()
-}
+// 	// start to write
+// 	w.WriteString("package locations\n\n")
+// 	w.WriteString("var HashedTranslations map[string]Codes = map[string]Codes{\n")
+// 	for key, codes := range translationsMap {
+// 		w.WriteString(fmt.Sprintf("\t\"%s\": {", key))
+// 		for code, n := range codes {
+// 			w.WriteString(fmt.Sprintf("\"%s\": %d, ", code, n))
+// 		}
+// 		w.WriteString("},\n")
+// 	}
+// 	w.WriteString("}\n")
+// 	w.Flush()
+// }
 
 func writeTranslations(filename string) {
 
@@ -197,7 +195,7 @@ func writeCommunes(filename string) {
 
 func main() {
 	writeTranslations("translations.txt")
-	writeHashedTranslations("translations.txt")
+	// writeHashedTranslations("translations.txt")
 	writeCountries("countries.txt")
 	writeCommunes("communes_chile.txt")
 }
