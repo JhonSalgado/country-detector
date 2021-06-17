@@ -57,12 +57,12 @@ func buildTranslations(filename string) map[string]Codes {
 	return translationsMap
 }
 
-func writeTranslations(filename string) {
+func writeHashedTranslations(filename string) {
 	translationsMap := buildTranslations(filename)
 
 	// create and open destination file
 	destinationFileName := strings.Replace(filename, "txt", "go", 1)
-	destinationFile, err := os.Create(destinationFolder + destinationFileName)
+	destinationFile, err := os.Create(destinationFolder + "hashed_" + destinationFileName)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -71,7 +71,7 @@ func writeTranslations(filename string) {
 
 	// start to write
 	w.WriteString("package locations\n\n")
-	w.WriteString("var Translations map[string]Codes = map[string]Codes{\n")
+	w.WriteString("var HashedTranslations map[string]Codes = map[string]Codes{\n")
 	for key, codes := range translationsMap {
 		w.WriteString(fmt.Sprintf("\t\"%s\": {", key))
 		for code, n := range codes {
@@ -83,7 +83,7 @@ func writeTranslations(filename string) {
 	w.Flush()
 }
 
-func writeHeavyTranslations(filename string) {
+func writeTranslations(filename string) {
 
 	// open origin file
 	originFile, err := os.Open(originFolder + filename)
@@ -95,7 +95,7 @@ func writeHeavyTranslations(filename string) {
 
 	// create and open destination file
 	destinationFileName := strings.Replace(filename, "txt", "go", 1)
-	destinationFile, err := os.Create(destinationFolder + "heavy_" + destinationFileName)
+	destinationFile, err := os.Create(destinationFolder + destinationFileName)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -107,7 +107,7 @@ func writeHeavyTranslations(filename string) {
 
 	// start to write
 	w.WriteString("package locations\n\n")
-	w.WriteString("var HeavyTranslations map[string]string = map[string]string{\n")
+	w.WriteString("var Translations map[string]string = map[string]string{\n")
 	for fileScanner.Scan() {
 		line := strings.ToLower(fileScanner.Text())
 		countryInfo := strings.Split(line, "\t")
@@ -159,8 +159,45 @@ func writeCountries(filename string) {
 	w.Flush()
 }
 
+func writeCommunes(filename string) {
+
+	// open origin file
+	originFile, err := os.Open(originFolder + filename)
+	if err != nil {
+		log.Fatal(err)
+	}
+	fileScanner := bufio.NewScanner(originFile)
+	defer originFile.Close()
+
+	// create and open destination file
+	destinationFileName := strings.Replace(filename, "txt", "go", 1)
+	destinationFile, err := os.Create(destinationFolder + destinationFileName)
+	if err != nil {
+		log.Fatal(err)
+	}
+	w := bufio.NewWriter(destinationFile)
+	defer destinationFile.Close()
+
+	// start to write
+	w.WriteString("package locations\n\n")
+	w.WriteString("var CommunesChile map[string]Place = map[string]Place{\n")
+	for fileScanner.Scan() {
+		line := strings.ToLower(fileScanner.Text())
+		communeInfo := strings.Split(line, "\t")
+		symbols := regexp.MustCompile(`[^\p{L}\s]`)
+		communeName := symbols.ReplaceAllString(communeInfo[0], "")
+		w.WriteString(fmt.Sprintf("\t\"%s\": {", communeName))            // Short or alternative name
+		w.WriteString(fmt.Sprintf("Latitude: \"%s\", ", communeInfo[1]))  // Latitude
+		w.WriteString(fmt.Sprintf("Longitude: \"%s\", ", communeInfo[2])) // Longitude
+		w.WriteString(fmt.Sprintf("Name: \"%s\"},\n", communeName))       // Name
+	}
+	w.WriteString("}\n")
+	w.Flush()
+}
+
 func main() {
 	writeTranslations("translations.txt")
-	// writeHeavyTranslations("translations.txt")
-	// writeCountries("countries.txt")
+	writeHashedTranslations("translations.txt")
+	writeCountries("countries.txt")
+	writeCommunes("communes_chile.txt")
 }
