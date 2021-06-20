@@ -27,8 +27,8 @@ func comparePlacesInfo(t *testing.T, want PlaceInfo, got PlaceInfo) {
 	if want.Longitude != got.Longitude {
 		t.Fatalf("Different Longitude.\n Want: %v\n Got: %v", want.Longitude, got.Longitude)
 	}
-	if want.Commune != got.Commune {
-		t.Fatalf("Different Communes.\n Want: %v\n Got: %v", want.Commune, got.Commune)
+	if want.Municipality != got.Municipality {
+		t.Fatalf("Different Communes.\n Want: %v\n Got: %v", want.Municipality, got.Municipality)
 	}
 }
 
@@ -70,45 +70,45 @@ func TestDetectFromTextNoCountry(t *testing.T) {
 
 func TestDetectFromTextChile(t *testing.T) {
 	want := PlaceInfo{
-		Name:      "chile",
-		Code:      "cl",
-		Latitude:  "-35.675147",
-		Longitude: "-71.542969",
-		Commune:   locations.Place{Name: "santiago", Latitude: "-33.4489", Longitude: "-70.6693"},
+		Name:         "chile",
+		Code:         "cl",
+		Latitude:     "-35.675147",
+		Longitude:    "-71.542969",
+		Municipality: locations.Place{Name: "santiago", Latitude: "-33.4489", Longitude: "-70.6693"},
 	}
 	got, found := detectorChile.DetectFromText("estudiando en santiago, chile")
 	if !found {
-		t.Fatalf("Expected to find %s. Got: nothing found", want.Commune.Name)
+		t.Fatalf("Expected to find %s. Got: nothing found", want.Municipality.Name)
 	}
 	comparePlacesInfo(t, want, got)
 }
 
 func TestDetectFromTextChileCommuneOnly(t *testing.T) {
 	want := PlaceInfo{
-		Name:      "chile",
-		Code:      "cl",
-		Latitude:  "-35.675147",
-		Longitude: "-71.542969",
-		Commune:   locations.Place{Name: "temuco", Latitude: "-38.7359", Longitude: "-72.5904"},
+		Name:         "chile",
+		Code:         "cl",
+		Latitude:     "-35.675147",
+		Longitude:    "-71.542969",
+		Municipality: locations.Place{Name: "temuco", Latitude: "-38.7359", Longitude: "-72.5904"},
 	}
 	got, found := detectorChile.DetectFromText("TEMBLOR EN TEMUCO!!")
 	if !found {
-		t.Fatalf("Expected to find %s. Got: nothing found", want.Commune.Name)
+		t.Fatalf("Expected to find %s. Got: nothing found", want.Municipality.Name)
 	}
 	comparePlacesInfo(t, want, got)
 }
 
 func TestDetectFromTextChileLongCommune(t *testing.T) {
 	want := PlaceInfo{
-		Name:      "chile",
-		Code:      "cl",
-		Latitude:  "-35.675147",
-		Longitude: "-71.542969",
-		Commune:   locations.Place{Name: "san vicente de tagua tagua", Latitude: "-34.2812", Longitude: "-71.8571"},
+		Name:         "chile",
+		Code:         "cl",
+		Latitude:     "-35.675147",
+		Longitude:    "-71.542969",
+		Municipality: locations.Place{Name: "san vicente de tagua tagua", Latitude: "-34.2812", Longitude: "-71.8571"},
 	}
 	got, found := detectorChile.DetectFromText("pasando la tarde en San Vicente de Tagua Tagua")
 	if !found {
-		t.Fatalf("Expected to find %s. Got: nothing found", want.Commune.Name)
+		t.Fatalf("Expected to find %s. Got: nothing found", want.Municipality.Name)
 	}
 	comparePlacesInfo(t, want, got)
 }

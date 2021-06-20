@@ -1,5 +1,5 @@
 package locations
 
 func init() {
-	Communes["cl"] = cl
+	Municipalities["cl"] = cl
 }

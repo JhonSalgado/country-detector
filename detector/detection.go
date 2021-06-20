@@ -7,11 +7,11 @@ import (
 )
 
 type PlaceInfo struct {
-	Name      string
-	Code      string
-	Longitude string
-	Latitude  string
-	Commune   locations.Place
+	Name         string
+	Code         string
+	Longitude    string
+	Latitude     string
+	Municipality locations.Place
 }
 
 func (detector CountryDetector) getInfo(countryInfo locations.Place, code string) PlaceInfo {
@@ -41,16 +41,16 @@ func (detector CountryDetector) DetectFromText(text string) (PlaceInfo, bool) {
 		}
 	}
 
-	// check if we can detect the commune
-	if len(detector.communes) > 0 && (place.Code == detector.countryCode || !found) {
-		for commune, communeInfo := range detector.communes {
-			if strings.Contains(lowercaseText, commune) {
+	// check if we can detect the municipality
+	if len(detector.municipalities) > 0 && (place.Code == detector.countryCode || !found) {
+		for municipality, municipalityInfo := range detector.municipalities {
+			if strings.Contains(lowercaseText, municipality) {
 				if !found {
 					countryInfo := detector.countries[detector.countryCode]
 					place = detector.getInfo(countryInfo, detector.countryCode)
 					found = true
 				}
-				place.Commune = communeInfo
+				place.Municipality = municipalityInfo
 				break
 			}
 		}

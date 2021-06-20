@@ -5,10 +5,10 @@ import (
 )
 
 type CountryDetector struct {
-	translations map[string]string
-	countries    map[string]locations.Place
-	communes     map[string]locations.Place
-	countryCode  string
+	translations   map[string]string
+	countries      map[string]locations.Place
+	municipalities map[string]locations.Place
+	countryCode    string
 }
 
 // GetDetector returns a country detector
@@ -19,18 +19,18 @@ func GetDetector() CountryDetector {
 	return detector
 }
 
-// GetDetectorWithCommunes returns a detector that have information about communes of a certain country
-func GetDetectorWithCommunes(countryCode string) CountryDetector {
+// GetDetectorWithMunicipalities returns a detector that have information about municipalities of a certain country
+func GetDetectorWithMunicipalities(countryCode string) CountryDetector {
 	detector := GetDetector()
-	if communes, ok := locations.Communes[countryCode]; ok {
-		detector.communes = communes
+	if municipalities, ok := locations.Municipalities[countryCode]; ok {
+		detector.municipalities = municipalities
 	}
 	detector.countryCode = countryCode
 	return detector
 }
 
-// GetDetectorChile returns a country detector that have information about chilean communes
+// GetDetectorChile returns a country detector that have information about chilean municipalities
 func GetDetectorChile() CountryDetector {
-	detector := GetDetectorWithCommunes("cl")
+	detector := GetDetectorWithMunicipalities("cl")
 	return detector
 }

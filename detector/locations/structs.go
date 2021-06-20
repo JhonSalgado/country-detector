@@ -6,4 +6,4 @@ type Place struct {
 	Name      string
 }
 
-var Communes map[string]map[string]Place = make(map[string]map[string]Place)
+var Municipalities map[string]map[string]Place = make(map[string]map[string]Place)
