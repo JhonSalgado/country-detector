@@ -1,5 +1,5 @@
-# [WIP] country-detector
-This package is used to detect countries mentioned in a text, in many languages. If it detects a country, it returns the name in English, its ISO Alpha-2 code and its geographical coordinates.
+# country-detector
+This golang package is used to detect countries mentioned in a text, in many languages. If it detects a country, it returns the name in English, its ISO Alpha-2 code and its geographical coordinates.
 
 It also allows detecting the municipalities of some countries, returning their full name, coordinates and the information of their country, but at the moment this feature is only available for Chile.
 
@@ -96,3 +96,6 @@ There are 3 types of files:
 - translations.txt: It has 5 columns separated by tabs, which correspond respectively to: alpha-2 code of the country, name of the country in english, translated name, ISO 639-1 code of the language to which it is translated, the language name in english. Currently only the first and third are being used but the other columns could be used in the future.
 - countries.txt: It has 4 columns separated by tab, which correspond respectively to: alpha-2 country code, latitude, longitude, country name in english.
 - municipality/: Each file on that folder must have 4 columns separated by tab, which are respectively: detection name, latitude, longitude, full name. The first column is the one used to detect so I recommend adding a row for each alternative name that the municipality has, including its full name.
+
+## License and Copyright
+Copyright (c) 2021 Jhon Salgado, contributors. Released under the MIT license.
