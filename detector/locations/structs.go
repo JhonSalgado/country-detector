@@ -1,5 +1,6 @@
 package locations
 
+// Place is a structure to store information of a place
 type Place struct {
 	Latitude  string
 	Longitude string

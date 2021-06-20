@@ -1,5 +1,5 @@
 # [WIP] country-detector
-This package is used to detect countries mentioned in a text, in almost any existing language. If it detects a country, it returns the name in English, its ISO Alpha-2 code and its geographical coordinates.
+This package is used to detect countries mentioned in a text, in many languages. If it detects a country, it returns the name in English, its ISO Alpha-2 code and its geographical coordinates.
 
 It also allows detecting the municipalities of some countries, returning their full name, coordinates and the information of their country, but at the moment this feature is only available for Chile.
 
