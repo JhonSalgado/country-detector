@@ -5,26 +5,32 @@ import (
 )
 
 type CountryDetector struct {
-	hashedTranslations map[string]locations.Codes
-	translations       map[string]string
-	countries          map[string]locations.Place
-	communes           map[string]locations.Place
-	countryCode        string
+	translations map[string]string
+	countries    map[string]locations.Place
+	communes     map[string]locations.Place
+	countryCode  string
 }
 
 // GetDetector returns a country detector
 func GetDetector() CountryDetector {
 	detector := CountryDetector{}
-	detector.hashedTranslations = locations.HashedTranslations
 	detector.translations = locations.Translations
 	detector.countries = locations.Countries
 	return detector
 }
 
+// GetDetectorWithCommunes returns a detector that have information about communes of a certain country
+func GetDetectorWithCommunes(countryCode string) CountryDetector {
+	detector := GetDetector()
+	if communes, ok := locations.Communes[countryCode]; ok {
+		detector.communes = communes
+	}
+	detector.countryCode = countryCode
+	return detector
+}
+
 // GetDetectorChile returns a country detector that have information about chilean communes
 func GetDetectorChile() CountryDetector {
-	detector := GetDetector()
-	detector.communes = locations.CommunesChile
-	detector.countryCode = "cl"
+	detector := GetDetectorWithCommunes("cl")
 	return detector
 }

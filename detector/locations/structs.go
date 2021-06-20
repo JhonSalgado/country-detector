@@ -6,4 +6,4 @@ type Place struct {
 	Name      string
 }
 
-type Codes map[string]int
+var Communes map[string]map[string]Place = make(map[string]map[string]Place)
