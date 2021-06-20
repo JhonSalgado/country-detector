@@ -1,6 +1,6 @@
 package locations
 
-var CommunesChile map[string]Place = map[string]Place{
+var cl map[string]Place = map[string]Place{
 	"arica": {Latitude: "-18.4783", Longitude: "-70.3126", Name: "arica"},
 	"camarones": {Latitude: "-18.4742", Longitude: "-70.2919", Name: "camarones"},
 	"general lagos": {Latitude: "-17.6533", Longitude: "-69.6347", Name: "general lagos"},

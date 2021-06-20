@@ -3,6 +3,7 @@ package main
 import (
 	"bufio"
 	"fmt"
+	"io/ioutil"
 	"log"
 	"os"
 	"regexp"
@@ -12,75 +13,13 @@ import (
 type Codes map[string]int
 
 var (
-	originFolder      = "./static/"
-	destinationFolder = "./detector/locations/"
+	originFolder         = "./static/"
+	municipalitiesFolder = "./static/municipalities/"
+	destinationFolder    = "./detector/locations/"
 )
 
-// func buildTranslations(filename string) map[string]Codes {
-// 	// get processor
-// 	filter := processor.Filter{
-// 		OnlyCustom: false,
-// 	}
-// 	texProcessor, _ := processor.GetTextProcessorWithStopWordsFilter(filter)
-
-// 	// create map
-// 	translationsMap := make(map[string]Codes)
-
-// 	// open origin file
-// 	originFile, err := os.Open(originFolder + filename)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-// 	fileScanner := bufio.NewScanner(originFile)
-// 	defer originFile.Close()
-
-// 	for fileScanner.Scan() {
-// 		line := fileScanner.Text()
-// 		transaltionInfo := strings.Split(line, "\t")
-// 		keys := texProcessor.GetWordsSet(transaltionInfo[2])
-// 		nKeys := len(keys)
-// 		code := transaltionInfo[0]
-// 		for _, key := range keys {
-// 			codes, keyExists := translationsMap[key]
-// 			if keyExists {
-// 				n, codeExists := codes[code]
-// 				if !codeExists || nKeys < n {
-// 					codes[code] = nKeys
-// 				}
-// 			} else {
-// 				translationsMap[key] = Codes{code: nKeys}
-// 			}
-// 		}
-// 	}
-// 	return translationsMap
-// }
-
-// func writeHashedTranslations(filename string) {
-// 	translationsMap := buildTranslations(filename)
-
-// 	// create and open destination file
-// 	destinationFileName := strings.Replace(filename, "txt", "go", 1)
-// 	destinationFile, err := os.Create(destinationFolder + "hashed_" + destinationFileName)
-// 	if err != nil {
-// 		log.Fatal(err)
-// 	}
-// 	w := bufio.NewWriter(destinationFile)
-// 	defer destinationFile.Close()
-
-// 	// start to write
-// 	w.WriteString("package locations\n\n")
-// 	w.WriteString("var HashedTranslations map[string]Codes = map[string]Codes{\n")
-// 	for key, codes := range translationsMap {
-// 		w.WriteString(fmt.Sprintf("\t\"%s\": {", key))
-// 		for code, n := range codes {
-// 			w.WriteString(fmt.Sprintf("\"%s\": %d, ", code, n))
-// 		}
-// 		w.WriteString("},\n")
-// 	}
-// 	w.WriteString("}\n")
-// 	w.Flush()
-// }
-
+// writetranslations writes in a .go file a map where the keys are every transalation of every
+// country available in the translations file, and the values are the Alfa-2 codes of the countries
 func writeTranslations(filename string) {
 
 	// open origin file
@@ -121,6 +60,8 @@ func writeTranslations(filename string) {
 	w.Flush()
 }
 
+// writetranslations writes in a .go file a map where the keys are the ISO Alfa-2 codes of each
+// country available in the countries file and the values are the information of the countries
 func writeCountries(filename string) {
 
 	// open origin file
@@ -157,10 +98,13 @@ func writeCountries(filename string) {
 	w.Flush()
 }
 
-func writeCommunes(filename string) {
+// writeMunicipalitiesFromCountry writes in a .go file a map where the keys are the variants of the
+// names of the municipalities availables for a certain country, and the values are the information
+// of the municipalities.
+func writeMunicipalitiesFromCountry(countryCode string) {
 
 	// open origin file
-	originFile, err := os.Open(originFolder + filename)
+	originFile, err := os.Open(fmt.Sprintf("%s%s.txt", municipalitiesFolder, countryCode))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -168,8 +112,7 @@ func writeCommunes(filename string) {
 	defer originFile.Close()
 
 	// create and open destination file
-	destinationFileName := strings.Replace(filename, "txt", "go", 1)
-	destinationFile, err := os.Create(destinationFolder + destinationFileName)
+	destinationFile, err := os.Create(fmt.Sprintf("%smunicipalities_%s.go", destinationFolder, countryCode))
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -178,24 +121,59 @@ func writeCommunes(filename string) {
 
 	// start to write
 	w.WriteString("package locations\n\n")
-	w.WriteString("var CommunesChile map[string]Place = map[string]Place{\n")
+	w.WriteString(fmt.Sprintf("var %s map[string]Place = map[string]Place{\n", countryCode))
 	for fileScanner.Scan() {
 		line := strings.ToLower(fileScanner.Text())
-		communeInfo := strings.Split(line, "\t")
+		municipalityInfo := strings.Split(line, "\t")
 		symbols := regexp.MustCompile(`[^\p{L}\s]`)
-		communeName := symbols.ReplaceAllString(communeInfo[0], "")
-		w.WriteString(fmt.Sprintf("\t\"%s\": {", communeName))            // Short or alternative name
-		w.WriteString(fmt.Sprintf("Latitude: \"%s\", ", communeInfo[1]))  // Latitude
-		w.WriteString(fmt.Sprintf("Longitude: \"%s\", ", communeInfo[2])) // Longitude
-		w.WriteString(fmt.Sprintf("Name: \"%s\"},\n", communeName))       // Name
+		municipalityShortName := symbols.ReplaceAllString(municipalityInfo[0], "")
+		municipalityName := symbols.ReplaceAllString(municipalityInfo[3], "")
+		w.WriteString(fmt.Sprintf("\t\"%s\": {", municipalityShortName))       // Short or alternative name
+		w.WriteString(fmt.Sprintf("Latitude: \"%s\", ", municipalityInfo[1]))  // Latitude
+		w.WriteString(fmt.Sprintf("Longitude: \"%s\", ", municipalityInfo[2])) // Longitude
+		w.WriteString(fmt.Sprintf("Name: \"%s\"},\n", municipalityName))       // Name
 	}
 	w.WriteString("}\n")
 	w.Flush()
 }
 
+// writeMunicipalities writes in .go files the maps for each municipality available in the
+// municipalities folder and add the maps to a init.go file to be initialized properly
+func writeMunicipalities() {
+	// open origin folder
+	files, err := ioutil.ReadDir(municipalitiesFolder)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	// create init file
+	initFile, err := os.Create(destinationFolder + "municipalities_init.go")
+	if err != nil {
+		log.Fatal(err)
+	}
+	initWriter := bufio.NewWriter(initFile)
+	defer initFile.Close()
+
+	// write municipalities_init.go to initialize a map with available municipalities
+	initWriter.WriteString("package locations\n\n")
+	initWriter.WriteString("func init() {\n")
+
+	for _, file := range files {
+		// get the country code from the filename
+		code := strings.Replace(file.Name(), ".txt", "", 1)
+
+		// write municipalities map in its own file
+		writeMunicipalitiesFromCountry(code)
+
+		// add the municipalities map in municipalities_init.go
+		initWriter.WriteString(fmt.Sprintf("\tMunicipalities[\"%s\"] = %s\n", code, code))
+	}
+	initWriter.WriteString("}\n")
+	initWriter.Flush()
+}
+
 func main() {
 	writeTranslations("translations.txt")
-	// writeHashedTranslations("translations.txt")
 	writeCountries("countries.txt")
-	writeCommunes("communes_chile.txt")
+	writeMunicipalities()
 }
