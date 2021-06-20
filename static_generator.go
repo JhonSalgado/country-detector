@@ -172,7 +172,7 @@ func writeMunicipalities() {
 	initWriter.Flush()
 }
 
-func main2() {
+func main() {
 	writeTranslations("translations.txt")
 	writeCountries("countries.txt")
 	writeMunicipalities()

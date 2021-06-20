@@ -4,6 +4,7 @@ import (
 	"github.com/JhonSalgado/country-detector/detector/locations"
 )
 
+// CountryDetector is the structure that stores all the information that is needed to detect
 type CountryDetector struct {
 	translations   map[string]string
 	countries      map[string]locations.Place

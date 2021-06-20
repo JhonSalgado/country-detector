@@ -6,6 +6,7 @@ import (
 	"github.com/JhonSalgado/country-detector/detector/locations"
 )
 
+// PlaceInfo is the struct with the info of the country/municipality detected
 type PlaceInfo struct {
 	Name         string
 	Code         string
@@ -14,6 +15,7 @@ type PlaceInfo struct {
 	Municipality locations.Place
 }
 
+// getInfo creates a PlaceInfo struct with the country information
 func (detector CountryDetector) getInfo(countryInfo locations.Place, code string) PlaceInfo {
 	place := PlaceInfo{
 		Name:      countryInfo.Name,
@@ -24,6 +26,7 @@ func (detector CountryDetector) getInfo(countryInfo locations.Place, code string
 	return place
 }
 
+// DetectFromText detects the country or municipality mentioned in a text and returns its information
 func (detector CountryDetector) DetectFromText(text string) (PlaceInfo, bool) {
 	found := false
 	place := PlaceInfo{}
@@ -45,6 +48,7 @@ func (detector CountryDetector) DetectFromText(text string) (PlaceInfo, bool) {
 	if len(detector.municipalities) > 0 && (place.Code == detector.countryCode || !found) {
 		for municipality, municipalityInfo := range detector.municipalities {
 			if strings.Contains(lowercaseText, municipality) {
+				// if we had not found the country we set it now
 				if !found {
 					countryInfo := detector.countries[detector.countryCode]
 					place = detector.getInfo(countryInfo, detector.countryCode)
