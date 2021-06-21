@@ -1,6 +1,8 @@
 package detector
 
 import (
+	"fmt"
+	"regexp"
 	"strings"
 
 	"github.com/JhonSalgado/country-detector/detector/locations"
@@ -28,13 +30,15 @@ func (detector CountryDetector) getInfo(countryInfo locations.Place, code string
 
 // DetectFromText detects the country or municipality mentioned in a text and returns its information
 func (detector CountryDetector) DetectFromText(text string) (PlaceInfo, bool) {
+
 	found := false
 	place := PlaceInfo{}
 	lowercaseText := strings.ToLower(text)
 
 	// detect country
 	for country, code := range detector.translations {
-		if strings.Contains(lowercaseText, country) {
+		regex := regexp.MustCompile(fmt.Sprintf(`(\s|^)%s(\s|$|\W)`, country))
+		if regex.FindString(lowercaseText) != "" {
 			countryInfo, ok := detector.countries[code]
 			if ok {
 				place = detector.getInfo(countryInfo, code)
@@ -47,7 +51,8 @@ func (detector CountryDetector) DetectFromText(text string) (PlaceInfo, bool) {
 	// check if we can detect the municipality
 	if len(detector.municipalities) > 0 && (place.Code == detector.countryCode || !found) {
 		for municipality, municipalityInfo := range detector.municipalities {
-			if strings.Contains(lowercaseText, municipality) {
+			regex := regexp.MustCompile(fmt.Sprintf(`(\s|^)%s(\s|$|\W)`, municipality))
+			if regex.FindString(lowercaseText) != "" {
 				// if we had not found the country we set it now
 				if !found {
 					countryInfo := detector.countries[detector.countryCode]
