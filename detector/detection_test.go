@@ -32,7 +32,6 @@ func comparePlacesInfo(t *testing.T, want PlaceInfo, got PlaceInfo) {
 	}
 }
 
-// Detect from text
 func TestDetectFromText(t *testing.T) {
 	want := PlaceInfo{
 		Name:      "united states",
@@ -45,6 +44,32 @@ func TestDetectFromText(t *testing.T) {
 		t.Fatalf("Expected to find '%s'. Got: nothing found", want.Name)
 	}
 	comparePlacesInfo(t, want, got)
+}
+
+func TestDetectFromTextWithDifferentSpaces(t *testing.T) {
+	want := PlaceInfo{
+		Name:      "united states",
+		Code:      "us",
+		Latitude:  "37.09024",
+		Longitude: "-95.712891",
+	}
+	gotLeadingSpace, foundLeadingSpace := detector.DetectFromText("I live in usa")
+	gotTrailingSpace, foundTrailingSpace := detector.DetectFromText("usa is my country")
+	gotNoCountry, foundNoCountry := detector.DetectFromText("usability is important")
+
+	if !foundLeadingSpace {
+		t.Fatalf("Expected to find '%s'. Got: nothing found", want.Name)
+	}
+	comparePlacesInfo(t, want, gotLeadingSpace)
+
+	if !foundTrailingSpace {
+		t.Fatalf("Expected to find '%s'. Got: nothing found", want.Name)
+	}
+	comparePlacesInfo(t, want, gotTrailingSpace)
+
+	if foundNoCountry {
+		t.Fatalf("Expected to not find any Country. Got: %s", gotNoCountry.Name)
+	}
 }
 
 func TestDetectFromTextUnicode(t *testing.T) {
