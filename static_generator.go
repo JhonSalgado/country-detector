@@ -6,11 +6,16 @@ import (
 	"io/ioutil"
 	"log"
 	"os"
-	"regexp"
 	"strings"
+
+	"github.com/JhonSalgado/text-processor/processor"
 )
 
-type Codes map[string]int
+var textProcessor = processor.GetTextProcessor()
+
+type Translations map[string]string
+
+type Langs map[string]Translations
 
 var (
 	originFolder         = "./static/"
@@ -18,10 +23,8 @@ var (
 	destinationFolder    = "./detector/locations/"
 )
 
-// writetranslations writes in a .go file a map where the keys are every transalation of every
-// country available in the translations file, and the values are the Alfa-2 codes of the countries
-func writeTranslations(filename string) {
-
+// groupTranslationsByLang groups in a map the translations by language
+func groupTranslationsByLang(filename string) Langs {
 	// open origin file
 	originFile, err := os.Open(originFolder + filename)
 	if err != nil {
@@ -29,6 +32,44 @@ func writeTranslations(filename string) {
 	}
 	fileScanner := bufio.NewScanner(originFile)
 	defer originFile.Close()
+
+	langs := Langs{}
+
+	// read the file to create the map
+	for fileScanner.Scan() {
+
+		// read a line and make it lowercase
+		line := strings.ToLower(fileScanner.Text())
+
+		// split using tabs
+		countryInfo := strings.Split(line, "\t")
+
+		// remove special characters from the translation
+		translation := textProcessor.CleanText(countryInfo[2])
+
+		lang := countryInfo[3]
+		// if the lang is empty or in a wrong format we move the translations to "other" section
+		// TODO: fill or fix the lang codes in the source file
+		if lang == "" || len(lang) > 2 {
+			lang = "other"
+		}
+		code := countryInfo[0]
+		// check if we already have a map for the language and add the translation and its country code
+		if codes, exists := langs[lang]; exists {
+			codes[translation] = code
+		} else {
+			langs[lang] = Translations{translation: code}
+		}
+	}
+	return langs
+}
+
+// writeTranslations writes in a .go file a map where the keys are  ISO 639-1 lang codes and the values are maps with
+// every country name translated to to the corresponding language
+func writeTranslations(filename string) {
+
+	// creates a langs map
+	langs := groupTranslationsByLang(filename)
 
 	// create and open destination file
 	destinationFileName := strings.Replace(filename, "txt", "go", 1)
@@ -39,22 +80,15 @@ func writeTranslations(filename string) {
 	w := bufio.NewWriter(destinationFile)
 	defer destinationFile.Close()
 
-	// map to check if a translation is repeated
-	isRepeated := make(map[string]bool)
-
 	// start to write
 	w.WriteString("package locations\n\n")
-	w.WriteString("var Translations map[string]string = map[string]string{\n")
-	for fileScanner.Scan() {
-		line := strings.ToLower(fileScanner.Text())
-		countryInfo := strings.Split(line, "\t")
-		symbols := regexp.MustCompile(`[^\p{L}\s]`)
-		countryName := symbols.ReplaceAllString(countryInfo[2], "")
-		if repeated := isRepeated[countryName]; repeated {
-			continue
+	w.WriteString("var Translations = map[string]map[string]string{\n")
+	for lang, transalations := range langs {
+		w.WriteString(fmt.Sprintf("\t\"%s\": {\n", lang))
+		for translation, country := range transalations {
+			w.WriteString(fmt.Sprintf("\t\t\"%s\": \"%s\",\n", translation, country))
 		}
-		w.WriteString(fmt.Sprintf("\t\"%s\": \"%s\",\n", countryName, countryInfo[0]))
-		isRepeated[countryName] = true
+		w.WriteString("\t},\n")
 	}
 	w.WriteString("}\n")
 	w.Flush()
@@ -87,8 +121,7 @@ func writeCountries(filename string) {
 	for fileScanner.Scan() {
 		line := strings.ToLower(fileScanner.Text())
 		countryInfo := strings.Split(line, "\t")
-		symbols := regexp.MustCompile(`[^\p{L}\s]`)
-		countryName := symbols.ReplaceAllString(countryInfo[3], "")
+		countryName := textProcessor.CleanText(countryInfo[3])
 		w.WriteString(fmt.Sprintf("\t\"%s\": {", countryInfo[0]))         // ISO code
 		w.WriteString(fmt.Sprintf("Latitude: \"%s\", ", countryInfo[1]))  // Latitude
 		w.WriteString(fmt.Sprintf("Longitude: \"%s\", ", countryInfo[2])) // Longitude
@@ -125,9 +158,8 @@ func writeMunicipalitiesFromCountry(countryCode string) {
 	for fileScanner.Scan() {
 		line := strings.ToLower(fileScanner.Text())
 		municipalityInfo := strings.Split(line, "\t")
-		symbols := regexp.MustCompile(`[^\p{L}\s]`)
-		municipalityShortName := symbols.ReplaceAllString(municipalityInfo[0], "")
-		municipalityName := symbols.ReplaceAllString(municipalityInfo[3], "")
+		municipalityShortName := textProcessor.CleanText(municipalityInfo[0])
+		municipalityName := textProcessor.CleanText(municipalityInfo[3])
 		w.WriteString(fmt.Sprintf("\t\"%s\": {", municipalityShortName))       // Short or alternative name
 		w.WriteString(fmt.Sprintf("Latitude: \"%s\", ", municipalityInfo[1]))  // Latitude
 		w.WriteString(fmt.Sprintf("Longitude: \"%s\", ", municipalityInfo[2])) // Longitude
