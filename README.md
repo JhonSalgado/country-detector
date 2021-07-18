@@ -14,7 +14,11 @@ In order to use the detection method you need to create a country detector. For 
 - GetDetectorWithMunicipalities: It receives as a parameter an Alpha-2 country code and returns a detector that has information of countries and also information about the municipalities of the country to which the code belongs. This builder is designed for when this project has information about the municipalities of more countries. 
 - GetDetectorChile: Just a short way to call GetDetectorWithMunicipalities with the code "cl".
 
-The detector has only one method called DetectFromText, which receives a text and returns a bool to indicate if a country was detected along with the information of that country. If the detector has municipalities loaded and the detected country corresponds to the country to which they belong, or if no country was found, it will also try to detect the municipality. If found, it will be delivered along with the country information as shown in the example below.
+The detector has two main methods called Detect and DetectInAnyLang, they both receive a text message and return a bool to indicate if a country was detected along with the information for that country. If the detector has municipalities loaded and the detected country corresponds to the country they belong to, or if no country was found, it will also try to detect the municipality. If found, it will be delivered along with country information, as shown in the example below.
+
+The main difference between both methods, as indicated by their names, is that DetectInAnyLang will check if the text contains the name of a country translated into up to 140 different languages, while Detect receives a list of languages ​​(their ISO 639-1 codes), and it will only use those translations to detect. In case any provided language code is invalid or not supported, the method will return an error as the third result. I highly recommend using Detect if you have knowledge of the language of the text to be parsed, as it can be dozens of times faster.
+
+Also available in the package is a helper method called ContainsSentence that indicates whether a text contains a sentence (this method is used by the main methods mentioned above).
 
 ### Example
 ```
@@ -22,48 +26,48 @@ package main
 
 import (
 	"encoding/json"
-	"fmt"
+	"log"
 
 	// importing the package
 	"github.com/JhonSalgado/country-detector/detector"
 )
 
 func main() {
-
+	
 	// creating our detectors
 	normalDetector := detector.GetDetector()
 	chileDetector := detector.GetDetectorChile()
 
-	// This phrase is in japanese and it means "I would rather live in the United States"
-	text1 := "私はむしろアメリカ合衆国に住みたいです"
+	// This phrase is in Vietnamese and it means "Portugal is beautiful"
+	text1 := "Bồ Đào Nha xinh đẹp"
 
-	// This sentence mentions Santiago, which is a municipality of Chile. 
-	text2 := "I'm going to spend Christmas in Santiago"
+	// This sentence mentions Santiago, which is a municipality of Chile.
+	text2 := "I'm going to spend Christmas in Santiago, Chile"
 
 	// analyzing the first text with the normal detector
-	detectedPlace1, found := normalDetector.DetectFromText(text1)
+	detectedPlace1, found := normalDetector.DetectInAnyLang(text1)
 	if found {
 		// print the result as json just for readability
 		bytes, _ := json.MarshalIndent(detectedPlace1, "", "    ")
-		fmt.Println("Detection from text1:\n", string(bytes))
+		log.Println("Detection from text1:\n", string(bytes))
 	}
 
 	// analyzing the secong text with the chilean detector
-	detectedPlace2, found2 := chileDetector.DetectFromText(text2)
-	if found2 {
+	detectedPlace2, found2, err := chileDetector.Detect(text2, []string{"en"})
+	if found2 && err == nil {
 		bytes, _ := json.MarshalIndent(detectedPlace2, "", "    ")
-		fmt.Println("Detection from text2:\n", string(bytes))
+		log.Println("Detection from text2:\n", string(bytes))
 	}
 }
 ```
 ### Output
 ```
 Detection from text1:
- {
-    "Name": "united states",
-    "Code": "us",
-    "Longitude": "-95.712891",
-    "Latitude": "37.09024",
+{
+    "Name": "portugal",
+    "Code": "pt",
+    "Longitude": "-8.224454",
+    "Latitude": "39.399872",
     "Municipality": {
         "Latitude": "",
         "Longitude": "",
@@ -71,7 +75,7 @@ Detection from text1:
     }
 }
 Detection from text2:
- {
+{
     "Name": "chile",
     "Code": "cl",
     "Longitude": "-71.542969",

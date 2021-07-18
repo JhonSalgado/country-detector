@@ -178,7 +178,7 @@ al	Albania	அல்பேனியா	ta	Tamil
 al	Albania	Albaania	vro	Võro
 al	Albania	Albani	ht	Haitian Creole
 al	Albania	Albania	an	Aragonese
-al	Albania	Albánia		Sami
+al	Albania	Albánia	se	Sami
 al	Albania	Albanie	fr	Franco-Provençal
 al	Albania	Albanië	nl	Dutch
 al	Albania	Albanien		Austro-Bavarian
@@ -4344,7 +4344,7 @@ fi	Finland	Soomõ	vro	Võro
 fi	Finland	Suòmaidh	gd	Scots Gaelic
 fi	Finland	Suomi	fi	Finnish
 fi	Finland	Suomija	lt	Lithuanian
-fi	Finland	Suopma		Sami
+fi	Finland	Suopma	se	Sami
 fi	Finland	பின்லாந்து	ta	Tamil
 fi	Finland	Fanland فنلاند	fa	Persian
 fi	Finland	Finland	bm	Bambara
@@ -4732,10 +4732,9 @@ de	Germany	獨逸	ko	Korean
 de	Germany	도이칠란트	ko	Korean
 de	Germany	ドイツ	ja	Japanese
 de	Germany	独逸or獨乙	ja	Japanese
-de	Germany	dotygu'e		Lojban
-de	Germany	Đức Quốc	Vietnamese
+de	Germany	Đức Quốc	vi	Vietnamese
 de	Germany	Đức	vi	Vietnamese
-de	Germany	Duiska		Sami
+de	Germany	Duiska	se	Sami
 de	Germany	Duitsland	af	Afrikaans
 de	Germany	Dútslân	fy	Frisian
 de	Germany	Düütschland		Low Saxon
@@ -9601,7 +9600,7 @@ no	Norway	Norge	no	Norwegian
 no	Norway	Noreg	fo	Faroese
 no	Norway	Noregur	is	Icelandic
 no	Norway	노르웨이	ko	Korean
-no	Norway	Norga		Sami
+no	Norway	Norga	se	Sami
 no	Norway	Norge	da	Danish
 no	Norway	Norja	fi	Finnish
 no	Norway	Norra	et	Estonian
@@ -10564,7 +10563,7 @@ ru	Russia	Россия	ru	Russian
 ru	Russia	Ruisia	gd	Scots Gaelic
 ru	Russia	an Ruis	gd	Scots Gaelic
 ru	Russia	an Rúis	ga	Irish
-ru	Russia	Ruošša		Sami
+ru	Russia	Ruošša	se	Sami
 ru	Russia	Rus	sq	Albanian
 ru	Russia	Pуcь	ru	Russian
 ru	Russia	रूस	hi	Hindi
@@ -11862,7 +11861,7 @@ se	Sweden	Roodsi	vro	Võro
 se	Sweden	Rootsi	et	Estonian
 se	Sweden	瑞典	zh	Chinese
 se	Sweden	Ruotsi	fi	Finnish
-se	Sweden	Ruoŧŧa		Sami
+se	Sweden	Ruoŧŧa	se	Sami
 se	Sweden	Schweden	de	German
 se	Sweden	스웨덴	ko	Korean
 se	Sweden	שבדיה	he	Hebrew
@@ -12907,6 +12906,7 @@ us	USA	Bandaríki Norður-Ameríku	is	Icelandic
 us	USA	Civitates Americae Unitae	la	Latin
 us	USA	Estados Unidos da América	pt	Portuguese
 us	USA	Estados Unidos de América	es	Spanish
+us	USA	Estados Unidos	es	Spanish
 us	USA	Estats Units d'Amèrica del Nord	ca	Catalan
 us	USA	États-Unis d'Amérique	fr	French
 us	USA	Feriene Steaten fan Amearika	fy	Frisian
